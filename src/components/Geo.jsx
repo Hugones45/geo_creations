@@ -34,7 +34,7 @@ const Geo = () => {
   const [selectMap, setSelectMap] = useState(null)
   const [toggle, setToggle] = useState(false)
 
-  const url = "http://localhost:3000/states"
+  const url = "https://geo-data-port.vercel.app/states"
 
   useEffect(() => {
     const getApi = async () => {
