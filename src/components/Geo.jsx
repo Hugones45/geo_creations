@@ -46,7 +46,6 @@ const Geo = () => {
 
     getApi()
   }, [])
-  console.log(apiTest, "API")
 
   function gessTheState() {
 
