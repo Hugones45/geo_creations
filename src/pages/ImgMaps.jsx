@@ -25,7 +25,7 @@ const ImgMaps = () => {
     }
 
     return (
-        <div className="p-6 bg-gray-800 min-h-screen">
+        <div className="p-6 min-h-screen" style={{ backgroundColor: 'rgb(5, 8, 22)' }}>
             <Link to="/#work">
                 <button className="mr-4 md:mr-8 mb-4 md:mb-8 cursor-pointer border border-white py-2 px-6 md:py-3 md:px-8 rounded-lg hover:bg-slate-700" onClick={() => alteraContext()}>Back To Portfolio</button>
             </Link>
