@@ -10,7 +10,7 @@ import {
     nodejs,
 } from "../assets/";
 
-import geopandas from "../assets/tech/geopandas.png"
+import geop from "../assets/tech/1.png"
 import python from "../assets/tech/python.png"
 import qgis from "../assets/tech/qgis.png"
 import arcgis from "../assets/tech/arcgis.png"
@@ -32,7 +32,7 @@ import port_front from "../assets/port_front.png"
 import shop_proje from "../assets/shop_front.png"
 import shirt_front from "../assets/shirt_front.png"
 import ouro_preto_uni from "../assets/ouropreto_preser_uni.png"
-import geoPandass from "../assets//tech/1.png"
+import geoPandass from "../assets/geopandas_logo.png"
 
 export const navLinks = [
 
@@ -92,7 +92,7 @@ const technologies = [
     },
     {
         name: "geopandas",
-        icon: geopandas,
+        icon: geop,
     },
     {
         name: "QGis",
