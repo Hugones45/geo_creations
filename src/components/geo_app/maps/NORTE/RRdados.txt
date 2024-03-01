@@ -1,0 +1,12 @@
+pavimento
+terra                            47
+grama                            19
+cascalho                          9
+asfalto ou concreto Asfáltico     3
+argila                            2
+piçarra                           2
+Name: count, dtype: int64
+
+TipoAero
+Nacional         81
+Internacional     1

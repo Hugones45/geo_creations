@@ -1,0 +1,10 @@
+pavimento
+asfalto ou concreto Asfáltico    6
+argila                           1
+grama                            1
+Name: count, dtype: int64
+
+TipoAero
+Nacional         6
+Internacional    2
+Name: count, dtype: int64

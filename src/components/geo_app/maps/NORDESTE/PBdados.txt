@@ -1,0 +1,11 @@
+pavimento
+asfalto ou concreto Asfáltico    11
+cascalho                          2
+piçarra                           1
+terra                             1
+Name: count, dtype: int64
+
+TipoAero
+Nacional         14
+Internacional     1
+Name: count, dtype: int64

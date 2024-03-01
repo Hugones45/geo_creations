@@ -1,0 +1,422 @@
+{
+    "states": [
+        {
+            "id": 1,
+            "name": "Minas Gerais",
+            "acronym": "MG",
+            "about":[
+           {
+             "pavimento": [
+                    "asfalto ou concreto Asfáltico: 85",
+                    "terra: 52",
+                    "cascalho: 45",
+                    "grama: 14",
+                    "saibro: 5",
+                    "concreto: 2",
+                    "areia: 1",
+                    "argila: 1",
+                    "piçarra: 1"          
+            ]
+            }
+        ]
+        },
+        {
+            "id": 2,
+            "name": "São Paulo",
+            "acronym": "SP",
+            "about":[
+           { "pavimento": [
+            "terra: 116",
+            "asfalto ou concreto Asfáltico: 96",
+            "grama: 75",
+            "cascalho: 8"         
+            ]
+        }
+        ]
+        },
+        {
+            "id": 3,
+            "name": "Rio de Janeiro",
+            "acronym": "RJ",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 14",
+            "grama: 6",
+            "concreto: 3",
+            "terra: 2",
+            "areia: 1",
+            "cascalho: 1",
+            "saibro: 1"      
+            ]
+        }
+        ]
+        },
+        {
+            "id": 4,
+            "name": "Espírito Santo",
+            "acronym": "ES",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 8",
+            "terra: 2",
+            "piçarra: 1 " 
+            ]
+        }
+        ]
+        },
+        {
+            "id": 5,
+            "name": "Brasília",
+            "acronym": "DF",
+            "about":[
+           { "pavimento": [
+            "cascalho: 2",
+            "asfalto ou concreto Asfáltico:1" 
+            ]
+        }
+        ]
+        },
+        {
+            "id": 6,
+            "name": "Goiás",
+            "acronym": "GO",
+            "about":[
+           { "pavimento": [
+            "terra: 48",
+            "cascalho: 47",
+            "asfalto ou concreto Asfáltico: 38",
+            "grama: 15",
+            "argila: 2",
+            "piçarra: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 7,
+            "name": "Mato Grosso do Sul",
+            "acronym": "MS",
+            "about":[
+           { "pavimento": [
+            "grama: 233",
+            "terra: 109",
+            "cascalho: 71",
+            "asfalto ou concreto Asfáltico: 38",
+            "concreto: 2",
+            "areia: 1",
+            "argila: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 8,
+            "name": "Mato Grosso",
+            "acronym": "MT",
+            "about":[
+           { "pavimento": [
+            "cascalho: 262",
+            "terra: 125",
+            "grama: 91",
+            "asfalto ou concreto Asfáltico: 42",
+            "argila: 5",
+            "areia: 2",
+            "piçarra: 2",
+            "saibro: 2"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 9,
+            "name": "Alagoas",
+            "acronym": "AL",
+            "about":[
+           { "pavimento": [
+            "piçarra: 5",
+            "asfalto ou concreto Asfáltico: 4",
+            "grama: 2",
+            "terra: 2",
+            "argila: 1",
+            "cascalho: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 10,
+            "name": "Bahia",
+            "acronym": "BA",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 64,",
+            "cascalho: 28",
+            "terra: 27",
+            "piçarra: 11",
+            "grama: 5",
+            "areia: 3",
+            "argila: 1",
+            "concreto: 1",
+            "saibro: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 11,
+            "name": "Ceará",
+            "acronym": "CE",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 12",
+            "piçarra: 4",
+            "cascalho: 2",
+            "grama: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 12,
+            "name": "Maranhão",
+            "acronym": "MA",
+            "about":[
+           { "pavimento": [
+            "piçarra: 30",
+            "asfalto ou concreto Asfáltico: 14",
+            "cascalho: 7",
+            "grama: 7",
+            "terra: 3"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 13,
+            "name": "Paraíba",
+            "acronym": "PB",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 11",
+            "cascalho: 2",
+            "piçarra: 1",
+            "terra: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 14,
+            "name": "Pernambuco",
+            "acronym": "PE",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 18",
+            "cascalho: 2",
+            "piçarra: 2",
+            "areia: 1",
+            "terra: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 15,
+            "name": "Piauí",
+            "acronym": "PI",
+            "about":[
+           { "pavimento": [
+            "piçarra: 8",
+            "asfalto ou concreto Asfáltico: 7",
+            "cascalho: 4"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 16,
+            "name": "Rio Grande do Norte",
+            "acronym": "RN",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 6",
+            "piçarra: 3",
+            "areia: 1",
+            "cascalho: 1",
+            "grama: 1",
+            "macadame: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 17,
+            "name": "Sergipe",
+            "acronym": "SE",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 2",
+            "cascalho: 2",
+            "piçarra: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 18,
+            "name": "Acre",
+            "acronym": "AC",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 6",
+            "argila: 1",
+            "grama: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 19,
+            "name": "Amazonas",
+            "acronym": "AM",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 35",
+            "piçarra: 8",
+            "terra: 5",
+            "cascalho: 2",
+            "areia: 1",
+            "argila: 1",
+            "concreto: 1",
+            "grama: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 20,
+            "name": "Amapá",
+            "acronym": "AP",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 3",
+            "cascalho: 2",
+            "piçarra: 2",
+            "concreto: 1",
+            "terra: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 20,
+            "name": "Pará",
+            "acronym": "PA",
+            "about":[
+           { "pavimento": [
+            "piçarra: 64",
+            "cascalho: 37",
+            "asfalto ou concreto Asfáltico: 34",
+            "terra: 25",
+            "grama: 16",
+            "concreto: 2",
+            "argila: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 21,
+            "name": "Rondônia",
+            "acronym": "RO",
+            "about":[
+           { "pavimento": [
+            "cascalho: 10",
+            "grama: 10",
+            "asfalto ou concreto Asfáltico: 7",
+            "terra: 2"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 22,
+            "name": "Roraima",
+            "acronym": "RR",
+            "about":[
+           { "pavimento": [
+            "terra: 47",
+            "grama: 19",
+            "cascalho: 9",
+            "asfalto ou concreto Asfáltico: 3",
+            "argila: 2",
+            "piçarr: 2"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 23,
+            "name": "Tocantins",
+            "acronym": "TO",
+            "about":[
+           { "pavimento": [
+            "cascalho: 23",
+            "asfalto ou concreto Asfáltico: 9",
+            "terra: 8",
+            "piçarra: 4",
+            "grama: 3",
+            "saibro: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 24,
+            "name": "Paraná",
+            "acronym": "PR",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 43",
+            "grama: 37",
+            "terra: 12",
+            "cascalho: 6",
+           " saibro: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 25,
+            "name": "Rio Grande do Sul",
+            "acronym": "RS",
+            "about":[
+           { "pavimento": [
+            "grama: 39",
+            "saibro: 28",
+            "asfalto ou concreto Asfáltico: 24",
+            "terra: 8",
+            "cascalho: 5",
+            "concreto: 3",
+            "sílica: 1"
+            ]
+        }
+        ]
+        },
+        {
+            "id": 26,
+            "name": "Santa Catarina",
+            "acronym": "SC",
+            "about":[
+           { "pavimento": [
+            "asfalto ou concreto Asfáltico: 15",
+            "saibro: 7",
+            "cascalho: 3",
+            "terra: 3",
+            "grama: 2"
+            ]
+        }
+        ]
+        }
+    ]
+}

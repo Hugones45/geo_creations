@@ -1,0 +1,14 @@
+pavimento
+grama                            39
+saibro                           28
+asfalto ou concreto Asfáltico    24
+terra                             8
+cascalho                          5
+concreto                          3
+sílica                            1
+Name: count, dtype: int64
+
+TipoAero
+Nacional         104
+Internacional      4
+Name: count, dtype: int64

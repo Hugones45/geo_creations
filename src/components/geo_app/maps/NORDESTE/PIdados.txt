@@ -1,0 +1,9 @@
+pavimento
+piçarra                          8
+asfalto ou concreto Asfáltico    7
+cascalho                         4
+Name: count, dtype: int64
+
+TipoAero
+Nacional    19
+Name: count, dtype: int64

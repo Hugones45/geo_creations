@@ -1,0 +1,9 @@
+pavimento
+cascalho                         2
+asfalto ou concreto Asfáltico    1
+Name: count, dtype: int64
+
+TipoAero
+Nacional         2
+Internacional    1
+Name: count, dtype: int64

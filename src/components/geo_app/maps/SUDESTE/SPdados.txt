@@ -1,0 +1,11 @@
+pavimento
+terra                            116
+asfalto ou concreto Asfáltico     96
+grama                             75
+cascalho                           8
+Name: count, dtype: int64
+
+TipoAero
+Nacional         292
+Internacional      3
+Name: count, dtype: int64
