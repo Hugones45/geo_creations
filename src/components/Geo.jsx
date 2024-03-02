@@ -72,10 +72,9 @@ const Geo = () => {
 
     <>
       <motion.div>
-        <p className={styles.sectionSubText}>Gerador de mapas dos estados brasileiros!</p>
-        <p className={styles.sectionSubText}>Com suas principais rodovias, aeroporots e pavimentos dos aeroportos!</p>
         <h2 className={styles.sectionHeadText}>Aplicação Geoespacial</h2>
-      </motion.div>
+        <p className={styles.sectionSubText}>Desenvolvida com Script Python <br /> otimizado para bancos de dados geográficos!</p>
+      </motion.div >
       <div className="xl:mt-12 xl:flex-row flex-col-reverse flex overflow-hidden">
 
         <motion.div
