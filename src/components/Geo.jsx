@@ -105,7 +105,7 @@ const Geo = () => {
             </button>
 
             {toggle && selectMap ? <div className="border border-gray-400 p-3 rounded-lg">
-              <div className="ml-6 mb-5"><p>Total de Pavimento dos Aeroportos</p></div>
+              <div className="ml-6 mb-5"><p>Classificação de Pavimento dos Aeroportos</p></div>
               <Pavimentos
                 sobre={selectMap.about}
 
