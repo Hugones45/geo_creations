@@ -33,6 +33,7 @@ const Geo = () => {
   const [inputValue, setInputValue] = useState('')
   const [selectMap, setSelectMap] = useState(null)
   const [toggle, setToggle] = useState(false)
+  const [invalidAcronym, setInvalidAcronym] = useState(false);
 
   const url = "https://geo-data-states.vercel.app/states"
 
@@ -50,17 +51,16 @@ const Geo = () => {
   function gessTheState() {
 
     const findMap = apiTest.find((item) => item.acronym === inputValue)
-
     if (findMap) {
-      setSelectMap(findMap)
-      setToggle(true)
+      setSelectMap(findMap);
+      setToggle(true);
+      setInvalidAcronym(false);
+    } else {
+      setSelectMap(null);
+      setInvalidAcronym(true);
     }
-
   }
 
-  const cleanInput = () => {
-    setInputValue('')
-  }
 
   function EraseGuess() {
     setToggle(!toggle)
@@ -69,19 +69,17 @@ const Geo = () => {
   }
 
   return (
-
     <>
       <motion.div>
         <h2 className={styles.sectionHeadText}>Aplicação Geoespacial</h2>
         <p className={styles.sectionSubText}>Desenvolvida com Script Python <br /> otimizado para bancos de dados geográficos!</p>
-      </motion.div >
+      </motion.div>
       <div className="xl:mt-12 xl:flex-row flex-col-reverse flex overflow-hidden">
 
         <motion.div
           variants={slideIn('left', "tween", 0.2, 1)}
           className=" bg-black-100 p-6"
         >
-          {/* <p className={styles.sectionSubText}>Gerador de mapas dos estados brasileiros com suas principais rodovias, aeroporots e pavimentos dos aeroportos!</p> */}
           <div
             className="mt-12 flex flex-col gap-8"
           >
@@ -104,21 +102,32 @@ const Geo = () => {
               {loading ? "Enviando..." : "Enviar"}
             </button>
 
-            {toggle && selectMap ? <div className="border border-gray-400 p-3 rounded-lg">
-              <div className="ml-6 mb-5"><p>Classificação de Pavimento dos Aeroportos</p></div>
-              <Pavimentos
-                sobre={selectMap.about}
+            {invalidAcronym && (
+              <div className="flex justify-center">
+                <p className="text-red-500 absolute top-65">Sigla errada, tente outra por favor</p>
+              </div>
+            )}
 
-              /> </div>
-              : <>
-                <span style={{ height: '400px' }}></span>
-              </>}
+
+            {toggle && selectMap ? (
+              <div className="border border-gray-400 p-3 rounded-lg">
+                <div className="ml-6 mb-5">
+                  <p>Classificação de Pavimento dos Aeroportos</p>
+                </div>
+                <Pavimentos
+                  sobre={selectMap.about}
+                />
+              </div>
+            ) : (
+              <span style={{ height: '400px' }}></span>
+            )}
 
           </div>
         </motion.div>
 
-        {toggle && selectMap !== "" ? <>
-          <div> {/* Adjust the height as needed */}
+        {/* Rendering MapsCards or EarthCanvas based on toggle and selectMap state */}
+        {toggle && selectMap !== null ? (
+          <div>
             <MapsCards
               nome_estado={selectMap.name}
               sobre={selectMap.about}
@@ -127,18 +136,17 @@ const Geo = () => {
               toggle={() => EraseGuess()}
             />
           </div>
-
-        </> : <>
+        ) : (
           <motion.div
             className="xl:flex-1 xl:h-auto md:h-[580px] h-[350px]"
           >
             <EarthCanvas />
-
           </motion.div>
-        </>}
+        )}
 
-      </div></>
+      </div>
+    </>
   )
 }
 
-export default SectionWrapper(Geo, "geoApp")
+export default SectionWrapper(Geo, "geoApp");
