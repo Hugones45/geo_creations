@@ -25,8 +25,9 @@ import location_qgis from "../assets/location_qgis.png"
 import pop_num from "../assets/pop_num.png"
 import set_sens from "../assets/set_sens.png"
 import decliv from "../assets/decliv.png"
-import p_araxa from "../assets/araxa_python.png"
-import seven from "../assets/seven.png"
+import l_araxa from "../assets/compositor_vegetacao_mg.png"
+import meliponas from "../assets/abelhass.png"
+import araxa_satelite from "../assets/araxa_mapa_satelite.png"
 
 import port_front from "../assets/port_front.png"
 import shop_proje from "../assets/shop_front.png"
@@ -195,15 +196,21 @@ const testimonials = [
 //maps over here
 const projects = [
     {
-        name: "Biomas do Brasil",
-        image: biomas_br,
-        long_description: "Representação cartográfica para analisarmos e compreendermos a diversidade ambiental brasileira, identificando e delimitando os diferentes tipos de ecossistemas existentes em nosso país.",
-        tools: 'ArcGIS',
-    },
-    {
         name: "Mapa de População por Município",
         image: pop_num,
         long_description: "Mapa temático da população dos municípios brasileiros com base em dados do censo demográfico do IBGE de 2022, seus dados fornecem ajuda para o planejamento e a tomada de decisões em diversas áreas, como saúde, educação, infraestrutura e políticas públicas.",
+        tools: 'QGIS',
+    },
+    {
+        name: "Vegetação de Minas Gerais",
+        image: l_araxa,
+        long_description: "Análise essencial para entender a diversidade biológica do estado, ajudando na conservação de ecossistemas e na tomada de decisões para o uso sustentável da terra. O conhecimento sobre as vegetações nativas fornece informações valiosas para o planejamento ambiental, gestão de recursos naturais e desenvolvimento de políticas de preservação, contribuindo para a proteção da biodiversidade e o equilíbrio dos ecossistemas.",
+        tools: 'QGIS',
+    },
+    {
+        name: "Mapeamento de Meliponas em Condições Vulneráveis no Ambiente Urbano",
+        image: meliponas,
+        long_description: "Pesquisa realizada em uma parte do centro de Araxá. O levantamento foi feito para entender a dispersão e interação das abelhas nativas locais, seu desenvolvimento e os perigos que ameaçam as colmeias. A presença de meliponas no meio urbano desempenha um papel crucial na saúde da cidade, pois essas abelhas nativas são excelentes polinizadoras, contribuindo para a manutenção de jardins, parques e áreas verdes urbanas. Além disso, as meliponas ajudam a melhorar a qualidade do ar e a mitigar os efeitos do aquecimento global, tornando-as essenciais para a resiliência ecológica das cidades.",
         tools: 'QGIS',
     },
     {
@@ -212,7 +219,12 @@ const projects = [
         long_description: "Representação cartográfica da localização da cidade de Araxá, orientando e facilitando o planejamento de viagens, o estudo de relações espaciais e a análise de proximidade com recursos e infraestrutura adjacentes.",
         tools: 'QGIS',
     },
-
+    {
+        name: "Localização com Imagens Google",
+        image: araxa_satelite,
+        long_description: "Esta representação de localização da cidade de Araxá, utiliza imagens de satélite do Google para proporcionar uma perspectiva distinta do terreno. Uma abordagem que permite insights essenciais para a gestão eficaz dos recursos urbanos e do ambiente circundante.",
+        tools: 'ArcGIS',
+    },
     {
         name: "Mapa dos Setores Censitários de Áraxa",
         image: set_sens,
@@ -225,12 +237,6 @@ const projects = [
         long_description: "Adentrando nas características topográficas de Araxá para melhor identificar áreas suscetíveis a deslizamentos e erosão, este mapa de declividade auxilia no planejamento da agricultura, gestão ambiental e localização estratégica de pontos para extração de minérios.",
         tools: 'QGIS',
     },
-    // {
-    //     name: "Mapa de Todas as Escolas de Araxá",
-    //     image: p_araxa,
-    //     long_description: "descição mapa 6",
-    //     tools: 'arcgis',
-    // },
     {
         name: "Localização do Município de Ouro Preto",
         image: location_arc,
@@ -243,13 +249,12 @@ const projects = [
         long_description: "Explorando as unidades de conservação em Ouro Preto, este mapa oferece uma representação das áreas protegidas dentro do município. Essa visualização é fundamental para o planejamento ambiental e a preservação da biodiversidade, além de promover o desenvolvimento de práticas de turismo sustentável na região.",
         tools: 'Python, GeoPandas',
     },
-    // {
-    //     name: "Mapa de Locazalição das Antigas 7 Maravilhas do Mundo",
-    //     keyForUrl: "seven_wonders",
-    //     image: seven,
-    //     long_description: "descição mapa 7",
-    //     tools: 'arcgis',
-    // },
+    {
+        name: "Biomas do Brasil",
+        image: biomas_br,
+        long_description: "Representação cartográfica para analisarmos e compreendermos a diversidade ambiental brasileira, identificando e delimitando os diferentes tipos de ecossistemas existentes em nosso país.",
+        tools: 'ArcGIS',
+    },
 ];
 
 const projects2 = [
