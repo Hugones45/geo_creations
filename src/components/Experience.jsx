@@ -82,7 +82,7 @@ const Experience = () => {
 
           <select value={language} onChange={(e) => handleChangeLanguage(e.target.value)}>
             <option value="pt">Português</option>
-            <option value="en">English</option>
+            <option value="en">Inglês</option>
           </select>
         </div >
 
