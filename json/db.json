@@ -7,15 +7,15 @@
             "about":[
            {
              "pavimento": [
-                    "asfalto ou concreto Asfáltico: 85",
-                    "terra: 52",
-                    "cascalho: 45",
-                    "grama: 14",
-                    "saibro: 5",
-                    "concreto: 2",
-                    "areia: 1",
-                    "argila: 1",
-                    "piçarra: 1"          
+                    "asphalt or asphalt concrete: 85",
+                    "earthen: 52",
+                    "gravel: 45",
+                    "grass: 14",
+                    "crushed stone: 5",
+                    "concrete: 2",
+                    "asphalt: 1",
+                    "clay: 1",
+                    "shale gravel: 1"          
             ]
             }
         ]
@@ -26,10 +26,10 @@
             "acronym": "SP",
             "about":[
            { "pavimento": [
-            "terra: 116",
-            "asfalto ou concreto Asfáltico: 96",
-            "grama: 75",
-            "cascalho: 8"         
+            "earthen: 116",
+            "asphalt or asphalt concrete: 96",
+            "grass: 75",
+            "gravel: 8"         
             ]
         }
         ]
@@ -40,13 +40,13 @@
             "acronym": "RJ",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 14",
-            "grama: 6",
-            "concreto: 3",
-            "terra: 2",
-            "areia: 1",
-            "cascalho: 1",
-            "saibro: 1"      
+            "asphalt or asphalt concrete: 14",
+            "grass: 6",
+            "concrete: 3",
+            "earthen: 2",
+            "asphalt: 1",
+            "gravel: 1",
+            "crushed stone: 1"      
             ]
         }
         ]
@@ -57,9 +57,9 @@
             "acronym": "ES",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 8",
-            "terra: 2",
-            "piçarra: 1 " 
+            "asphalt or asphalt concrete: 8",
+            "earthen: 2",
+            "shale gravel: 1 " 
             ]
         }
         ]
@@ -70,8 +70,8 @@
             "acronym": "DF",
             "about":[
            { "pavimento": [
-            "cascalho: 2",
-            "asfalto ou concreto Asfáltico:1" 
+            "gravel: 2",
+            "asphalt or asphalt concrete:1" 
             ]
         }
         ]
@@ -82,12 +82,12 @@
             "acronym": "GO",
             "about":[
            { "pavimento": [
-            "terra: 48",
-            "cascalho: 47",
-            "asfalto ou concreto Asfáltico: 38",
-            "grama: 15",
-            "argila: 2",
-            "piçarra: 1"
+            "earthen: 48",
+            "gravel: 47",
+            "asphalt or asphalt concrete: 38",
+            "grass: 15",
+            "clay: 2",
+            "shale gravel: 1"
             ]
         }
         ]
@@ -98,13 +98,13 @@
             "acronym": "MS",
             "about":[
            { "pavimento": [
-            "grama: 233",
-            "terra: 109",
-            "cascalho: 71",
-            "asfalto ou concreto Asfáltico: 38",
-            "concreto: 2",
-            "areia: 1",
-            "argila: 1"
+            "grass: 233",
+            "earthen: 109",
+            "gravel: 71",
+            "asphalt or asphalt concrete: 38",
+            "concrete: 2",
+            "asphalt: 1",
+            "clay: 1"
             ]
         }
         ]
@@ -115,14 +115,14 @@
             "acronym": "MT",
             "about":[
            { "pavimento": [
-            "cascalho: 262",
-            "terra: 125",
-            "grama: 91",
-            "asfalto ou concreto Asfáltico: 42",
-            "argila: 5",
-            "areia: 2",
-            "piçarra: 2",
-            "saibro: 2"
+            "gravel: 262",
+            "earthen: 125",
+            "grass: 91",
+            "asphalt or asphalt concrete: 42",
+            "clay: 5",
+            "asphalt: 2",
+            "shale gravel: 2",
+            "crushed stone: 2"
             ]
         }
         ]
@@ -133,12 +133,12 @@
             "acronym": "AL",
             "about":[
            { "pavimento": [
-            "piçarra: 5",
-            "asfalto ou concreto Asfáltico: 4",
-            "grama: 2",
-            "terra: 2",
-            "argila: 1",
-            "cascalho: 1"
+            "shale gravel: 5",
+            "asphalt or asphalt concrete: 4",
+            "grass: 2",
+            "earthen: 2",
+            "clay: 1",
+            "gravel: 1"
             ]
         }
         ]
@@ -149,15 +149,15 @@
             "acronym": "BA",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 64,",
-            "cascalho: 28",
-            "terra: 27",
-            "piçarra: 11",
-            "grama: 5",
-            "areia: 3",
-            "argila: 1",
-            "concreto: 1",
-            "saibro: 1"
+            "asphalt or asphalt concrete: 64,",
+            "gravel: 28",
+            "earthen: 27",
+            "shale gravel: 11",
+            "grass: 5",
+            "asphalt: 3",
+            "clay: 1",
+            "concrete: 1",
+            "crushed stone: 1"
             ]
         }
         ]
@@ -168,10 +168,10 @@
             "acronym": "CE",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 12",
-            "piçarra: 4",
-            "cascalho: 2",
-            "grama: 1"
+            "asphalt or asphalt concrete: 12",
+            "shale gravel: 4",
+            "gravel: 2",
+            "grass: 1"
             ]
         }
         ]
@@ -182,11 +182,11 @@
             "acronym": "MA",
             "about":[
            { "pavimento": [
-            "piçarra: 30",
-            "asfalto ou concreto Asfáltico: 14",
-            "cascalho: 7",
-            "grama: 7",
-            "terra: 3"
+            "shale gravel: 30",
+            "asphalt or asphalt concrete: 14",
+            "gravel: 7",
+            "grass: 7",
+            "earthen: 3"
             ]
         }
         ]
@@ -197,10 +197,10 @@
             "acronym": "PB",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 11",
-            "cascalho: 2",
-            "piçarra: 1",
-            "terra: 1"
+            "asphalt or asphalt concrete: 11",
+            "gravel: 2",
+            "shale gravel: 1",
+            "earthen: 1"
             ]
         }
         ]
@@ -211,11 +211,11 @@
             "acronym": "PE",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 18",
-            "cascalho: 2",
-            "piçarra: 2",
-            "areia: 1",
-            "terra: 1"
+            "asphalt or asphalt concrete: 18",
+            "gravel: 2",
+            "shale gravel: 2",
+            "asphalt: 1",
+            "earthen: 1"
             ]
         }
         ]
@@ -226,9 +226,9 @@
             "acronym": "PI",
             "about":[
            { "pavimento": [
-            "piçarra: 8",
-            "asfalto ou concreto Asfáltico: 7",
-            "cascalho: 4"
+            "shale gravel: 8",
+            "asphalt or asphalt concrete: 7",
+            "gravel: 4"
             ]
         }
         ]
@@ -239,11 +239,11 @@
             "acronym": "RN",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 6",
-            "piçarra: 3",
-            "areia: 1",
-            "cascalho: 1",
-            "grama: 1",
+            "asphalt or asphalt concrete: 6",
+            "shale gravel: 3",
+            "asphalt: 1",
+            "gravel: 1",
+            "grass: 1",
             "macadame: 1"
             ]
         }
@@ -255,9 +255,9 @@
             "acronym": "SE",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 2",
-            "cascalho: 2",
-            "piçarra: 1"
+            "asphalt or asphalt concrete: 2",
+            "gravel: 2",
+            "shale gravel: 1"
             ]
         }
         ]
@@ -268,9 +268,9 @@
             "acronym": "AC",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 6",
-            "argila: 1",
-            "grama: 1"
+            "asphalt or asphalt concrete: 6",
+            "clay: 1",
+            "grass: 1"
             ]
         }
         ]
@@ -281,14 +281,14 @@
             "acronym": "AM",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 35",
-            "piçarra: 8",
-            "terra: 5",
-            "cascalho: 2",
-            "areia: 1",
-            "argila: 1",
-            "concreto: 1",
-            "grama: 1"
+            "asphalt or asphalt concrete: 35",
+            "shale gravel: 8",
+            "earthen: 5",
+            "gravel: 2",
+            "asphalt: 1",
+            "clay: 1",
+            "concrete: 1",
+            "grass: 1"
             ]
         }
         ]
@@ -299,11 +299,11 @@
             "acronym": "AP",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 3",
-            "cascalho: 2",
-            "piçarra: 2",
-            "concreto: 1",
-            "terra: 1"
+            "asphalt or asphalt concrete: 3",
+            "gravel: 2",
+            "shale gravel: 2",
+            "concrete: 1",
+            "earthen: 1"
             ]
         }
         ]
@@ -314,13 +314,13 @@
             "acronym": "PA",
             "about":[
            { "pavimento": [
-            "piçarra: 64",
-            "cascalho: 37",
-            "asfalto ou concreto Asfáltico: 34",
-            "terra: 25",
-            "grama: 16",
-            "concreto: 2",
-            "argila: 1"
+            "shale gravel: 64",
+            "gravel: 37",
+            "asphalt or asphalt concrete: 34",
+            "earthen: 25",
+            "grass: 16",
+            "concrete: 2",
+            "clay: 1"
             ]
         }
         ]
@@ -331,10 +331,10 @@
             "acronym": "RO",
             "about":[
            { "pavimento": [
-            "cascalho: 10",
-            "grama: 10",
-            "asfalto ou concreto Asfáltico: 7",
-            "terra: 2"
+            "gravel: 10",
+            "grass: 10",
+            "asphalt or asphalt concrete: 7",
+            "earthen: 2"
             ]
         }
         ]
@@ -345,12 +345,12 @@
             "acronym": "RR",
             "about":[
            { "pavimento": [
-            "terra: 47",
-            "grama: 19",
-            "cascalho: 9",
-            "asfalto ou concreto Asfáltico: 3",
-            "argila: 2",
-            "piçarr: 2"
+            "earthen: 47",
+            "grass: 19",
+            "gravel: 9",
+            "asphalt or asphalt concrete: 3",
+            "clay: 2",
+            "shale gravel: 2"
             ]
         }
         ]
@@ -361,12 +361,12 @@
             "acronym": "TO",
             "about":[
            { "pavimento": [
-            "cascalho: 23",
-            "asfalto ou concreto Asfáltico: 9",
-            "terra: 8",
-            "piçarra: 4",
-            "grama: 3",
-            "saibro: 1"
+            "gravel: 23",
+            "asphalt or asphalt concrete: 9",
+            "earthen: 8",
+            "shale gravel: 4",
+            "grass: 3",
+            "crushed stone: 1"
             ]
         }
         ]
@@ -377,11 +377,11 @@
             "acronym": "PR",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 43",
-            "grama: 37",
-            "terra: 12",
-            "cascalho: 6",
-           " saibro: 1"
+            "asphalt or asphalt concrete: 43",
+            "grass: 37",
+            "earthen: 12",
+            "gravel: 6",
+           " crushed stone: 1"
             ]
         }
         ]
@@ -392,13 +392,13 @@
             "acronym": "RS",
             "about":[
            { "pavimento": [
-            "grama: 39",
-            "saibro: 28",
-            "asfalto ou concreto Asfáltico: 24",
-            "terra: 8",
-            "cascalho: 5",
-            "concreto: 3",
-            "sílica: 1"
+            "grass: 39",
+            "crushed stone: 28",
+            "asphalt or asphalt concrete: 24",
+            "earthen: 8",
+            "gravel: 5",
+            "concrete: 3",
+            "silica: 1"
             ]
         }
         ]
@@ -409,11 +409,11 @@
             "acronym": "SC",
             "about":[
            { "pavimento": [
-            "asfalto ou concreto Asfáltico: 15",
-            "saibro: 7",
-            "cascalho: 3",
-            "terra: 3",
-            "grama: 2"
+            "asphalt or asphalt concrete: 15",
+            "crushed stone: 7",
+            "gravel: 3",
+            "earthen: 3",
+            "grass: 2"
             ]
         }
         ]

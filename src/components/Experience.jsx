@@ -50,14 +50,14 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
 
-  const [language, setLanguage] = useState('pt');
+  const [language, setLanguage] = useState('en');
 
   const handleChangeLanguage = (selectedLanguage) => {
     setLanguage(selectedLanguage);
   };
 
   const handleDownload = () => {
-    const resumePath = language === 'pt' ? '/resume/resume_hugo_pt.pdf' : '/resume/resume_hugo_english.pdf';
+    const resumePath = language === 'en' ? '/resume/resume_hugo_english.pdf' : '/resume/resume_hugo_pt.pdf';
 
     const link = document.createElement('a');
     link.href = resumePath;
@@ -72,18 +72,21 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Certificados e Experiência Profissional</h2>
+        <h2 className={styles.sectionHeadText}>Certificates and Professional Experience</h2>
       </motion.div>
 
-      <div className="inline-flex gap-14 border-2 border-white p-4 mt-2 rounded">
-
+      <motion.div
+        variants={textVariant()}
+        className="inline-flex gap-14 border-2 border-white p-4 mt-2 rounded"
+      >
         <div className="flex gap-3 flex-col items-center mr-[-15px] ml-6">
-          <p>Escolha o idioma</p>
+          <p>Choose the language</p>
 
           <select value={language} onChange={(e) => handleChangeLanguage(e.target.value)}>
-            <option value="pt">Português</option>
-            <option value="en">Inglês</option>
+            <option value="en">English</option>
+            <option value="pt">Portuguese</option>
           </select>
+
         </div >
 
 
@@ -100,8 +103,7 @@ const Experience = () => {
           onClick={handleDownload}
           className="hover:bg-blue-600 hover:text-white"
         >Download Resume</button>
-      </div >
-
+      </motion.div>
       <div className="mt-20 flex flex-col">
 
         <VerticalTimeline>

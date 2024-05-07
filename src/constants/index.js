@@ -43,11 +43,11 @@ export const navLinks = [
     },
     {
         id: "work",
-        title: "Trabalhos",
+        title: "Work",
     },
     {
         id: "programming",
-        title: "Programação",
+        title: "Programming",
     },
 ];
 
@@ -123,7 +123,7 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Certificados ESRI",
+        title: "ESRI Certificates",
         company_name: "Environmental Systems Research Institute - ESRI",
         icon: esri,
         iconBg: "#fff",
@@ -140,29 +140,29 @@ const experiences = [
         ],
     },
     {
-        title: "Desenvolvedor Front-End",
+        title: "Frontend Developer",
         company_name: "Power of Data",
         icon: power,
         iconBg: "#fff",
         date: "Jan 2022 - Jan 2023",
         points: [
-            "Criação de um chatbot para investigações da Polícia Civil de Minas Gerais.",
-            "Desenvolvimento da lógica e interface do usuário para um Motor de Decisão PoD focado em empréstimos.",
-            "Desenvolvimento e manutenção de aplicações web utilizando React.js e outras tecnologias relacionadas.",
-            "Design criativo de exibições de produtos e experiências do usuário",
+            "Creation of a chatbot for investigations of the Civil Police of Minas Gerais.",
+            "Development of logic and user interface for a Decision Engine PoD focused on loans.",
+            "Development and maintenance of web applications using React.js and other related technologies.",
+            "Creative design of product displays and user experiences.",
         ],
     },
     {
-        title: "Suporte Técnico de TI",
+        title: "IT Technical Support",
         company_name: "Bit Tech",
         icon: bittec,
         iconBg: "#e2e51a",
         date: "Jan 2023 - Present",
         points: [
-            "Suporte aos usuários da plataforma.",
-            "Supervisão e manutenção de cadastros, campanhas e produtos.",
-            "Conhecimento das regras de negócio da empresa.",
-            "Investigação de erros do sistema.",
+            "Support for platform users.",
+            "Supervision and maintenance of registrations, campaigns and products.",
+            "Knowledge of the company's business rules.",
+            "Investigation of system errors.",
         ],
     }
 ];
@@ -259,7 +259,7 @@ const projects = [
 
 const projects2 = [
     {
-        name: "Portfolio Fron-End (em inglês)",
+        name: "Portfolio Fron-End",
         image: port_front,
         source_code_link: "https://github.com/Hugones45/portifolio_front",
         source_code_app: "https://portifolio-front-rho.vercel.app/"
