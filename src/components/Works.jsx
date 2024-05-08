@@ -50,8 +50,8 @@ const Works = () => {
   return (
     <>
       <motion.div >
-        <p className={styles.sectionSubText}>Meus Trabalhos</p>
-        <h2 className={styles.sectionHeadText}>Projetos</h2>
+        <p className={styles.sectionSubText}>My Works</p>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
 
       {/* <div className="w-full flex">

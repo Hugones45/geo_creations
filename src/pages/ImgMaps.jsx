@@ -39,10 +39,10 @@ const ImgMaps = () => {
             </div>
 
             <div className="flex justify-center flex-col items-center mb-8 gap-5 mt-4">
-                <p className="w-full md:max-w-screen-md px-4">Descrição: {project.long_description}</p>
+                <p className="w-full md:max-w-screen-md px-4">Description: {project.long_description}</p>
 
                 <div className="flex flex-row justify-center items-center gap-2">
-                    <span>Ferramentas:</span>
+                    <span>Tools:</span>
                     <p className="border border-white rounded-lg bg-gray-600 px-4 py-2 hover:bg-slate-700">{project.tools}</p>
                 </div>
             </div>
