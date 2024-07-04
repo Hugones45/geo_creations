@@ -9,7 +9,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { useNavigate } from "react-router-dom";
 
-const Geo = () => {
+const Hero = () => {
   const [loading] = useState(false);
   const [apiTest, setApiTest] = useState([]);
   const [selectMap, setSelectMap] = useState(null);
@@ -54,77 +54,46 @@ const Geo = () => {
   }
 
   return (
-    <>
-      <motion.div>
-        <h2 className={styles.sectionHeadText}>Geospatial application</h2>
-        <p className={styles.sectionSubText}>
-          Developed with Python script <br /> optimized for geospatial databases!
-        </p>
-      </motion.div>
-      <div className="xl:mt-12 xl:flex-row flex-col-reverse flex overflow-hidden">
-        <motion.div
-          variants={slideIn("left", "tween", 0.2, 1)}
-          className=" bg-black-100 p-6"
-        >
-          <div className="mt-12 flex flex-col gap-8">
-            <label className="flex flex-col">
-              <span className="text-white font-medium mb-4">
-                Choose a Brazilian state:
-              </span>
-              <select
-                value={selectedAcronym}
-                onChange={(e) => setSelectedAcronym(e.target.value)}
-                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-              >
-                <option value="">Select</option>
-                {apiTest.map((item) => (
-                  <option key={item.name} value={item.acronym}>
-                    {item.name}
-                  </option>
-                ))}
-              </select>
-            </label>
+    <section className="relative w-full min-h-screen mx-auto">
+      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+        <div className="flex flex-col justify-center items-center mt-5">
+          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
+          <div className="w-1 sm:h-8- h-40 violet-gradient" />
+        </div>
 
-            {invalidAcronym && (
-              <div className="flex justify-center">
-                <p className="text-red-500 absolute top-65">
-                  Wrong abbreviation, please <br className="sm:block hidden" />{" "}
-                  try another one.
-                </p>
-              </div>
-            )}
-
-            {toggle && selectMap ? (
-              <div className="border border-gray-400 p-3 rounded-lg">
-                <div className="ml-4 mb-5">
-                  <p>Airport Pavement Classification</p>
-                </div>
-                <Pavimentos sobre={selectMap.about} />
-              </div>
-            ) : (
-              <span style={{ height: "400px" }}></span>
-            )}
-          </div>
-        </motion.div>
-
-        {toggle && selectMap !== null ? (
-          <div>
-            <MapsCards
-              nome_estado={selectMap.name}
-              sobre={selectMap.about}
-              img_map={<MapsObjects catch_map={selectMap.name} />}
-              id={selectMap.id}
-              toggle={() => EraseGuess()}
-            />
-          </div>
-        ) : (
-          <motion.div className="xl:flex-1 xl:h-auto md:h-[580px] h-[350px]">
-            <EarthCanvas />
-          </motion.div>
-        )}
+        <div>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+            Greetings! I'm <span className='text-[#915EFF]'>Hugo</span>
+          </h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            Committed to crafting intuitive interfaces, <br className='sm:block hidden' />
+            dynamic web apps and innovative geographic softwares.
+          </p>
+        </div>
       </div>
-    </>
+      <div className="flex-1 w-full h-full flex items-center justify-center z-0">
+        <motion.div className="relative top-[18rem] w-[550px] h-[550px] sm:w-[750px] sm:h-[750px] md:w-[850px] md:h-[850px] xl:w-[600px] xl:h-[600px] mb-[100px]">
+          <EarthCanvas spin={true} />
+        </motion.div>
+      </div>
+      <div className="absolute xs:bottom-10 w-full flex justify-center items-center z-10">
+        <a href="#about">
+          <div className="w=[35px] h-[90px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <motion.div
+              animate={{ y: [0, 64, 0] }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop"
+              }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
+            >
+            </motion.div>
+          </div>
+        </a>
+      </div>
+    </section>
   );
 };
 
-export default SectionWrapper(Geo, "geoApp");
+export default Hero;

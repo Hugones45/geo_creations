@@ -14,25 +14,37 @@ import geop from "../assets/tech/1.png"
 import python from "../assets/tech/python.png"
 import qgis from "../assets/tech/qgis.png"
 import arcgis from "../assets/tech/arcgis.png"
+import sql from "../assets/tech/s.png"
+import postgre2 from "../assets/tech/pngwing.com.png"
+import postgis from "../assets/tech/postgis.png"
+
 
 import bittec from "../assets/bittech.png"
 import power from "../assets/power.png"
 import esri from "../assets/esri.png"
 
-import biomas_br from "../assets/biomas_br.png"
-import location_arc from "../assets/location_arc.jpg"
-import location_qgis from "../assets/location_qgis.png"
-import pop_num from "../assets/pop_num.png"
-import set_sens from "../assets/set_sens.png"
-import decliv from "../assets/decliv.png"
-import l_araxa from "../assets/compositor_vegetacao_mg.jpg"
-import meliponas from "../assets/abelhass.jpg"
-import araxa_satelite from "../assets/araxa_mapa_satelite.jpg"
+
+import residuos from "../assets/maps_proje/map_layout_residuos.png"
+import geo_economic from "../assets/maps_proje/carac_geo_e_economic.png"
+import declividade from "../assets/maps_proje/declividade.png"
+import araxa_loc from "../assets/maps_proje/araxa_loc.png"
+import meli_loc from "../assets/maps_proje/meli.png"
+import uso_solo from "../assets/maps_proje/mapa_1_.png"
+import setores_sensi from "../assets/maps_proje/setores_sensi.png"
+import ods7 from "../assets/maps_proje/ods7.png"
+import pop_nun from "../assets/maps_proje/mapa_pop_nun_2022.png"
+import brazil_bio from "../assets/maps_proje/brazil_bio.png"
+import vege from "../assets/maps_proje/compositor_vegetacao_mg.jpg"
+
+import weather from "../assets/programming/weather.png"
+import route_fuel from "../assets/programming/route_fuel.png"
+
+import meli_araxa from "../assets/company/bee.jpg"
+import udemy from "../assets/company/udemy.png"
 
 import port_front from "../assets/port_front.png"
 import shop_proje from "../assets/shop_front.png"
 import shirt_front from "../assets/shirt_front.png"
-import ouro_preto_uni from "../assets/ouropreto_preser_uni.png"
 import geoPandass from "../assets/geopandas_logo.png"
 
 export const navLinks = [
@@ -72,6 +84,34 @@ const services = [
 
 const technologies = [
     {
+        name: "QGis",
+        icon: qgis,
+    },
+    {
+        name: "Arc Gis",
+        icon: arcgis,
+    },
+    {
+        name: "python",
+        icon: python,
+    },
+    {
+        name: "geopandas",
+        icon: geop,
+    },
+    {
+        name: "SQL",
+        icon: sql
+    },
+    {
+        name: "PostGree",
+        icon: postgre2
+    },
+    {
+        name: "Post Gis",
+        icon: postgis
+    },
+    {
         name: "HTML 5",
         icon: html,
     },
@@ -88,22 +128,6 @@ const technologies = [
         icon: typescript,
     },
     {
-        name: "python",
-        icon: python,
-    },
-    {
-        name: "geopandas",
-        icon: geop,
-    },
-    {
-        name: "QGis",
-        icon: qgis,
-    },
-    {
-        name: "Arc Gis",
-        icon: arcgis,
-    },
-    {
         name: "React JS",
         icon: reactjs,
     },
@@ -115,16 +139,11 @@ const technologies = [
         name: "Tailwind CSS",
         icon: tailwind,
     },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    }
 ];
 
-const experiences = [
+const certificates = [
     {
-        title: "ESRI Certificates",
-        company_name: "Environmental Systems Research Institute - ESRI",
+        title: "ESRI",
         icon: esri,
         iconBg: "#fff",
         points: [
@@ -137,6 +156,32 @@ const experiences = [
             "Getting Started with Spatial Analysis",
             "GIS Basics",
             "Putting Your GIS Skills to Work",
+        ],
+    },
+    {
+        title: "Udemy Certificates",
+        icon: udemy,
+        iconBg: "#fff",
+        points: [
+            "Learn Geoprocessing with QGIS",
+            "Getting Started with Python GIS",
+            "SQL Language for Data Analysis",
+            "React from Zero to Mastery",
+            "React Js with TypeScript",
+        ],
+    },
+]
+
+const experiences = [
+    {
+        title: "Meliponicultores Araxá - Minas Gerais",
+        company_name: "Geoprocessing Analyst - Volunteer Work",
+        icon: meli_araxa,
+        iconBg: "#fff",
+        points: [
+            "Creation of detailed maps of urban habitats for monitoring native bees.",
+            "Development of spatial analyses to identify critical areas for conservation.",
+            "Implementation of predictive models to assess environmental impact on bee populations.",
         ],
     },
     {
@@ -196,64 +241,71 @@ const testimonials = [
 //maps over here
 const projects = [
     {
-        name: "Population Map by Municipality",
-        image: pop_num,
+        name: "Geographic and Socioeconomic Characteristics of Minas Gerais",
+        image: geo_economic,
         long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
         tools: 'QGIS',
     },
     {
         name: "Vegetation of Minas Gerais",
-        image: l_araxa,
-        long_description: "An essential analysis to understand the biological diversity of the state, aiding in the conservation of ecosystems and decision-making for sustainable land use. Knowledge about native vegetation provides valuable information for environmental planning, natural resource management, and the development of preservation policies, contributing to biodiversity protection and ecosystem balance.",
+        image: vege,
+        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
         tools: 'QGIS',
     },
     {
-        name: "Mapping of Meliponas in Vulnerable Conditions in the Urban Environment",
-        image: meliponas,
-        long_description: "Research conducted in a part of downtown Araxá. The survey was conducted to understand the dispersion and interaction of local native bees, their development, and the dangers threatening the hives. The presence of Meliponas in the urban environment plays a crucial role in the city's health, as these native bees are excellent pollinators, contributing to the maintenance of gardens, parks, and urban green areas. Additionally, Meliponas help improve air quality and mitigate the effects of global warming, making them essential for the ecological resilience of cities.",
+        name: "Final disposal of household waste",
+        image: residuos,
+        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
         tools: 'QGIS',
     },
     {
         name: "Location of the Municipality of Araxá",
-        image: location_qgis,
-        long_description: "Cartographic representation of the location of the city of Araxá, guiding and facilitating travel planning, the study of spatial relationships, and the analysis of proximity to adjacent resources and infrastructure",
-        tools: 'QGIS',
-    },
-    {
-        name: "Location with Google Images, Araxá",
-        image: araxa_satelite,
-        long_description: "This representation of Araxá city's location utilizes Google satellite images to provide a distinct perspective of the terrain. An approach that allows essential insights for effective management of urban resources and the surrounding environment.",
-        tools: 'ArcGIS',
-    },
-    {
-        name: "Map of Census Tracts of Araxá",
-        image: set_sens,
-        long_description: "This map of Araxá classifies its sectors, enabling more efficient territorial management and comprehensive socioeconomic analysis. It offers a segmented view of the urban and rural characteristics of the municipality, providing valuable insights for regional development and planning.",
+        image: araxa_loc,
+        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
         tools: 'QGIS',
     },
     {
         name: "Araxá Slope Map",
-        image: decliv,
-        long_description: "Delving into the topographic characteristics of Araxá to better identify areas prone to landslides and erosion, this slope map aids in agricultural planning, environmental management, and the strategic location of points for mineral extraction.",
+        image: declividade,
+        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
         tools: 'QGIS',
     },
     {
-        name: "Location of the Municipality of Ouro Preto",
-        image: location_arc,
-        long_description: "Map highlighting the geographical location of the city of Ouro Preto, serving as an essential guide for travel planning, spatial relationship investigations, and assessments of proximity to neighboring resources and infrastructure.",
-        tools: 'ArcGIS',
+        name: "Mapping of Meliponas in Vulnerable Conditions in the Urban Environment",
+        image: meli_loc,
+        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        tools: 'QGIS',
     },
     {
-        name: "Conservation Units of Ouro Preto",
-        image: ouro_preto_uni,
-        long_description: "Exploring the conservation units in Ouro Preto, this map provides a representation of the protected areas within the municipality. This visualization is crucial for environmental planning and biodiversity preservation, as well as promoting the development of sustainable tourism practices in the region.",
-        tools: 'Python, GeoPandas',
+        name: "Land Use Map Araxá",
+        image: uso_solo,
+        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        tools: 'QGIS',
+    },
+    {
+        name: "Population Map by Municipality",
+        image: setores_sensi,
+        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        tools: 'QGIS',
+    },
+
+    {
+        name: "Sustainable Development Index",
+        image: ods7,
+        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        tools: 'QGIS',
+    },
+    {
+        name: "Population Map by Municipality",
+        image: pop_nun,
+        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        tools: 'QGIS',
     },
     {
         name: "Biomes of Brazil",
-        image: biomas_br,
-        long_description: "Cartographic representation to analyze and understand the environmental diversity of Brazil, identifying and delineating the different types of ecosystems present in our country.",
-        tools: 'ArcGIS',
+        image: brazil_bio,
+        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        tools: 'QGIS',
     },
 ];
 
@@ -263,6 +315,20 @@ const projects2 = [
         image: port_front,
         source_code_link: "https://github.com/Hugones45/portifolio_front",
         source_code_app: "https://portifolio-front-rho.vercel.app/"
+    },
+    {
+        name: "Routes and Fuel ",
+        image: route_fuel,
+        source_code_link: "https://github.com/Hugones45/Route-and-Fuel-Google-Maps",
+        source_code_app: "https://route-and-fuel-google-maps.vercel.app/"
+
+    },
+    {
+        name: "Real-Time Weather",
+        image: weather,
+        source_code_link: "https://github.com/Hugones45/app_weather_time",
+        source_code_app: "https://app-weather-time.vercel.app/"
+
     },
     {
         name: "3D T-Shirt Generator",
@@ -285,4 +351,4 @@ const projects2 = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects, projects2 };
+export { services, technologies, experiences, testimonials, projects, projects2, certificates };

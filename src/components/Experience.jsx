@@ -10,6 +10,9 @@ import { styles } from "../styles"
 import { experiences } from "../constants"
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion";
+import { certificates } from "../constants"
+import CertificateCard from "./CertificateCard";
+
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -72,7 +75,7 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Certificates and Professional Experience</h2>
+        <h2 className={styles.sectionHeadText}>Professional Experience</h2>
       </motion.div>
 
       <motion.div
@@ -104,6 +107,13 @@ const Experience = () => {
           className="hover:bg-blue-600 hover:text-white"
         >Download Resume</button>
       </motion.div>
+
+      {/* <div className="flex flex-row flex-wrap gap-6 mt-10">
+        {certificates.map((certificate, index) => (
+          <CertificateCard key={index} certificate={certificate} />
+        ))}
+      </div> */}
+
       <div className="mt-20 flex flex-col">
 
         <VerticalTimeline>
