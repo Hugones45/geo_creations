@@ -243,56 +243,56 @@ const projects = [
     {
         name: "Geographic and Socioeconomic Characteristics of Minas Gerais",
         image: geo_economic,
-        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        long_description: "This thematic map of Minas Gerais illustrates the state's key geographical and socioeconomic features, including population distribution, elevation, Human Development Index (HDI), and Gross Domestic Product (GDP) per capita. The map serves as a valuable tool for understanding regional disparities and supporting decisions in urban planning, economic development, and social policy implementation.",
         tools: 'QGIS',
     },
     {
         name: "Vegetation of Minas Gerais",
         image: vege,
-        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        long_description: "An essential analysis to understand the biological diversity of the state, aiding in the conservation of ecosystems and decision-making for sustainable land use. Knowledge about native vegetation provides valuable information for environmental planning, natural resource management, and the development of preservation policies, contributing to biodiversity protection and ecosystem balance.",
         tools: 'QGIS',
     },
     {
         name: "Final disposal of household waste",
         image: residuos,
-        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        long_description: "An illustration of the different methods of household waste disposal across various regions. The map categorizes disposal practices into controlled landfills, sanitary landfills, open dumps, and areas with no information. This detailed visualization is essential for environmental planning and management, aiding authorities in identifying regions that need improved waste management infrastructure and policies.",
         tools: 'QGIS',
     },
     {
         name: "Location of the Municipality of Araxá",
         image: araxa_loc,
-        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        long_description: "Cartographic representation of the location of the city of Araxá, guiding and facilitating travel planning, the study of spatial relationships, and the analysis of proximity to adjacent resources and infrastructure.",
         tools: 'QGIS',
     },
     {
         name: "Araxá Slope Map",
         image: declividade,
-        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        long_description: "Delving into the topographic characteristics of Araxá to better identify areas prone to landslides and erosion, this slope map aids in agricultural planning, environmental management, and the strategic location of points for mineral extraction.",
         tools: 'QGIS',
     },
     {
         name: "Mapping of Meliponas in Vulnerable Conditions in the Urban Environment",
         image: meli_loc,
-        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        long_description: "Research conducted in a part of downtown Araxá. The survey was conducted to understand the dispersion and interaction of local native bees, their development, and the dangers threatening the hives. The presence of Meliponas in the urban environment plays a crucial role in the city's health, as these native bees are excellent pollinators, contributing to the maintenance of gardens, parks, and urban green areas. Additionally, Meliponas help improve air quality and mitigate the effects of global warming, making them essential for the ecological resilience of cities.",
         tools: 'QGIS',
     },
     {
         name: "Land Use Map Araxá",
         image: uso_solo,
-        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        long_description: "This map vividly displays the diverse ways the land is utilized. It highlights agricultural areas, artificial surfaces, forest and campestral mosaics, managed pastures, silviculture, and various types of vegetation. This detailed depiction is an invaluable resource for urban planners, environmentalists, and policymakers to strategize sustainable land use, conserve natural resources, and enhance regional development.",
         tools: 'QGIS',
     },
     {
-        name: "Population Map by Municipality",
+        name: "Map of Census Tracts of Araxá",
         image: setores_sensi,
-        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        long_description: "This map of Araxá classifies its sectors, enabling more efficient territorial management and comprehensive socioeconomic analysis. It offers a segmented view of the urban and rural characteristics of the municipality, providing valuable insights for regional development and planning.",
         tools: 'QGIS',
     },
 
     {
         name: "Sustainable Development Index",
         image: ods7,
-        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
+        long_description: "This map visually represents energy accessibility and cleanliness across Brazil's regions, emphasizing the critical role of SDG 7 in promoting environmental sustainability and fostering economic development through cleaner, more accessible energy sources.",
         tools: 'QGIS',
     },
     {
@@ -304,8 +304,8 @@ const projects = [
     {
         name: "Biomes of Brazil",
         image: brazil_bio,
-        long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
-        tools: 'QGIS',
+        long_description: "Cartographic representation to analyze and understand the environmental diversity of Brazil, identifying and delineating the different types of ecosystems present in our country.",
+        tools: 'ARCGIS',
     },
 ];
 
