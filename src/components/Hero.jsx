@@ -119,13 +119,20 @@ const Geo = () => {
           </div>
         ) : (
           <>
+            <div className="absolute top-16 xs:bottom-10 w-full flex justify-center items-center z-10">
+              <a href="#about">
+                <div className="w=[35px] h-[150px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+
+                </div>
+              </a>
+            </div>
             <motion.div className="relative w-full flex-grow" style={{ height: '600px', position: 'relative', bottom: '130px' }}>
 
               <ComputersCanvas />
 
-              <div className="absolute top-10 xs:bottom-10 w-full flex justify-center items-center z-10">
+              <div className="absolute bottom-16 xs:bottom-10 w-full flex justify-center items-center z-10">
                 <a href="#about">
-                  <div className="w=[35px] h-[200px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+                  <div className="w=[35px] h-[150px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
 
                   </div>
                 </a>
