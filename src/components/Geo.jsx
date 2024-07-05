@@ -78,7 +78,7 @@ const Hero = () => {
       </div>
       <div className="absolute bottom-16 xs:bottom-10 w-full flex justify-center items-center z-10">
         <a href="#about">
-          <div className="w=[35px] h-[300px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className="w=[35px] h-[300px] rounded-3xl border-4 border-transparent flex justify-center items-start p-2">
 
           </div>
         </a>
