@@ -49,13 +49,18 @@ import geoPandass from "../assets/geopandas_logo.png"
 
 export const navLinks = [
 
+
+    {
+        id: "work",
+        title: "Work",
+    },
     {
         id: "geoApp",
         title: "Geo App!",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "experience",
+        title: "Experience",
     },
     {
         id: "programming",
