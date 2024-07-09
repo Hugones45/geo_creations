@@ -60,7 +60,7 @@ const Experience = () => {
   };
 
   const handleDownload = () => {
-    const resumePath = language === 'en' ? '/resume/resume_hugo_english.pdf' : '/resume/resume_hugo_pt.pdf';
+    const resumePath = language === 'en' ? '/resume/resume_hugo_e.pdf' : '/resume/resume_hugo_p.pdf';
 
     const link = document.createElement('a');
     link.href = resumePath;
