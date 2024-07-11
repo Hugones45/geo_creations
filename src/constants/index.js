@@ -184,9 +184,10 @@ const experiences = [
         icon: meli_araxa,
         iconBg: "#fff",
         points: [
-            "Creation of detailed maps of urban habitats for monitoring native bees.",
-            "Development of spatial analyses to identify critical areas for conservation.",
+            "Development of projects for the preservation of native bee species in urban environments using ArcGIS and QGIS.",
             "Implementation of predictive models to assess environmental impact on bee populations.",
+            "Collection, organization, cleaning, and standardization of data from public and private sources, ensuring quality and accuracy of databases and geospatial data.",
+            "Application of spatial analyses to identify and monitor critical areas for the conservation of stingless bees.",
         ],
     },
     {
