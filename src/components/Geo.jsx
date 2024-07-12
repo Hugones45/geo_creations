@@ -66,8 +66,8 @@ const Hero = () => {
             Greetings! I'm <span className='text-[#915EFF]'>Hugo</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Committed to crafting intuitive interfaces, <br className='sm:block hidden' />
-            dynamic web apps and innovative geographic softwares.
+            Committed to developing intuitive maps, dynamic geographic <br className='sm:block hidden' />
+            applications and innovative geospatial analysis solutions.
           </p>
         </div>
       </div>
