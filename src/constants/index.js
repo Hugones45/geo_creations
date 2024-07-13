@@ -204,7 +204,7 @@ const experiences = [
         ],
     },
     {
-        title: "IT Technical Support",
+        title: "System Analyst",
         company_name: "Bit Tech",
         icon: bittec,
         iconBg: "#e2e51a",
