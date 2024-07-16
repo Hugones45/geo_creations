@@ -35,6 +35,7 @@ import ods7 from "../assets/maps_proje/ods7.png"
 import pop_nun from "../assets/maps_proje/mapa_pop_nun_2022.png"
 import brazil_bio from "../assets/maps_proje/brazil_bio.png"
 import vege from "../assets/maps_proje/compositor_vegetacao_mg.jpg"
+import araxa_savi from "../assets/maps_proje/vegetacao_savi_map.png"
 
 import weather from "../assets/programming/weather.png"
 import route_fuel from "../assets/programming/route_fuel.png"
@@ -217,7 +218,6 @@ const experiences = [
         ],
     }
 ];
-
 const testimonials = [
     {
         testimonial:
@@ -244,6 +244,7 @@ const testimonials = [
         image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
 ];
+
 //maps over here
 const projects = [
     {
@@ -265,9 +266,9 @@ const projects = [
         tools: 'QGIS',
     },
     {
-        name: "Location of the Municipality of Araxá",
-        image: araxa_loc,
-        long_description: "Cartographic representation of the location of the city of Araxá, guiding and facilitating travel planning, the study of spatial relationships, and the analysis of proximity to adjacent resources and infrastructure.",
+        name: "Savi Vegetation Index of Araxá",
+        image: araxa_savi,
+        long_description: "This thematic map of Araxá illustrates the SAVI (Soil-Adjusted Vegetation Index) across the municipality, highlighting variations in vegetation density. The map serves as a valuable tool for monitoring vegetation health, managing urban development, and supporting the creation of Melipona bees of the region. By providing insights into areas with different levels of vegetation cover, it supports decision-making in environmental conservation, land use planning, and sustainable development initiatives.",
         tools: 'QGIS',
     },
     {
@@ -280,6 +281,12 @@ const projects = [
         name: "Mapping of Meliponas in Vulnerable Conditions in the Urban Environment",
         image: meli_loc,
         long_description: "Research conducted in a part of downtown Araxá. The survey was conducted to understand the dispersion and interaction of local native bees, their development, and the dangers threatening the hives. The presence of Meliponas in the urban environment plays a crucial role in the city's health, as these native bees are excellent pollinators, contributing to the maintenance of gardens, parks, and urban green areas. Additionally, Meliponas help improve air quality and mitigate the effects of global warming, making them essential for the ecological resilience of cities.",
+        tools: 'QGIS',
+    },
+    {
+        name: "Location of the Municipality of Araxá",
+        image: araxa_loc,
+        long_description: "Cartographic representation of the location of the city of Araxá, guiding and facilitating travel planning, the study of spatial relationships, and the analysis of proximity to adjacent resources and infrastructure.",
         tools: 'QGIS',
     },
     {
