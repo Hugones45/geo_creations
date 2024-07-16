@@ -266,17 +266,18 @@ const projects = [
         tools: 'QGIS',
     },
     {
-        name: "Savi Vegetation Index of Araxá",
-        image: araxa_savi,
-        long_description: "This thematic map of Araxá illustrates the SAVI (Soil-Adjusted Vegetation Index) across the municipality, highlighting variations in vegetation density. The map serves as a valuable tool for monitoring vegetation health, managing urban development, and supporting the creation of Melipona bees of the region. By providing insights into areas with different levels of vegetation cover, it supports decision-making in environmental conservation, land use planning, and sustainable development initiatives.",
-        tools: 'QGIS',
-    },
-    {
         name: "Araxá Slope Map",
         image: declividade,
         long_description: "Delving into the topographic characteristics of Araxá to better identify areas prone to landslides and erosion, this slope map aids in agricultural planning, environmental management, and the strategic location of points for mineral extraction.",
         tools: 'QGIS',
     },
+    {
+        name: "Savi Vegetation Index of Araxá",
+        image: araxa_savi,
+        long_description: "This thematic map of Araxá illustrates the SAVI (Soil-Adjusted Vegetation Index) across the municipality, highlighting variations in vegetation density. The map serves as a valuable tool for monitoring vegetation health, managing urban development, and supporting the creation of Melipona bees of the region. By providing insights into areas with different levels of vegetation cover, it supports decision-making in environmental conservation, land use planning, and sustainable development initiatives.",
+        tools: 'QGIS',
+    },
+
     {
         name: "Mapping of Meliponas in Vulnerable Conditions in the Urban Environment",
         image: meli_loc,
