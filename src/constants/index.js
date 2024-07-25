@@ -34,8 +34,9 @@ import setores_sensi from "../assets/maps_proje/setores_sensi.png"
 import ods7 from "../assets/maps_proje/ods7.png"
 import pop_nun from "../assets/maps_proje/mapa_pop_nun_2022.png"
 import brazil_bio from "../assets/maps_proje/brazil_bio.png"
-import vege from "../assets/maps_proje/compositor_vegetacao_mg.jpg"
+import vegeGO from "../assets/maps_proje/biom_vege_map.png"
 import araxa_savi from "../assets/maps_proje/vegetacao_savi_map.png"
+import geologic1 from "../assets/maps_proje/go-geologia-geomorfologia.png"
 
 import weather from "../assets/programming/weather.png"
 import route_fuel from "../assets/programming/route_fuel.png"
@@ -248,15 +249,21 @@ const testimonials = [
 //maps over here
 const projects = [
     {
-        name: "Geographic and Socioeconomic Characteristics of Minas Gerais",
-        image: geo_economic,
-        long_description: "This thematic map of Minas Gerais illustrates the state's key geographical and socioeconomic features, including population distribution, elevation, Human Development Index (HDI), and Gross Domestic Product (GDP) per capita. The map serves as a valuable tool for understanding regional disparities and supporting decisions in urban planning, economic development, and social policy implementation.",
+        name: "Biomes and Vegetation of Goiás",
+        image: vegeGO,
+        long_description: "The map of the biomes and vegetation of Goiás provides a comprehensive overview of the diverse ecosystems in the region, including savannas, forests, and wetlands. This detailed visualization is crucial for environmental conservation and river preservation efforts. By identifying the natural habitats and vegetation types, authorities and environmentalists can implement targeted measures to protect the river ecosystems, prevent deforestation, and promote sustainable land use practices. The map aids in monitoring changes in vegetation cover and supports initiatives to maintain the health and biodiversity of Goiás's rivers and surrounding landscapes.",
         tools: 'QGIS',
     },
     {
-        name: "Vegetation of Minas Gerais",
-        image: vege,
-        long_description: "An essential analysis to understand the biological diversity of the state, aiding in the conservation of ecosystems and decision-making for sustainable land use. Knowledge about native vegetation provides valuable information for environmental planning, natural resource management, and the development of preservation policies, contributing to biodiversity protection and ecosystem balance.",
+        name: "Morphostructural Domains of Goiás",
+        image: geologic1,
+        long_description: "The Morphostructural Domains of Goiás map highlights the geological structures and landforms of the region. This detailed visualization is crucial for construction planning, helping engineers and planners identify suitable areas for development, assess potential risks, and ensure the stability and safety of construction projects.",
+        tools: 'QGIS',
+    },
+    {
+        name: "Geographic and Socioeconomic Characteristics of Minas Gerais",
+        image: geo_economic,
+        long_description: "This thematic map of Minas Gerais illustrates the state's key geographical and socioeconomic features, including population distribution, elevation, Human Development Index (HDI), and Gross Domestic Product (GDP) per capita. The map serves as a valuable tool for understanding regional disparities and supporting decisions in urban planning, economic development, and social policy implementation.",
         tools: 'QGIS',
     },
     {
