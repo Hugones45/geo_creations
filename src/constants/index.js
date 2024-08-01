@@ -37,6 +37,7 @@ import brazil_bio from "../assets/maps_proje/brazil_bio.png"
 import vegeGO from "../assets/maps_proje/biom_vege_map.png"
 import araxa_savi from "../assets/maps_proje/vegetacao_savi_map.png"
 import geologic1 from "../assets/maps_proje/go-geologia-geomorfologia.png"
+import healthcareheatmap from "../assets/maps_proje/mapa_calor_bh_centro_saude.png"
 
 import weather from "../assets/programming/weather.png"
 import route_fuel from "../assets/programming/route_fuel.png"
@@ -270,6 +271,12 @@ const projects = [
         name: "Final disposal of household waste",
         image: residuos,
         long_description: "An illustration of the different methods of household waste disposal across various regions. The map categorizes disposal practices into controlled landfills, sanitary landfills, open dumps, and areas with no information. This detailed visualization is essential for environmental planning and management, aiding authorities in identifying regions that need improved waste management infrastructure and policies.",
+        tools: 'QGIS',
+    },
+    {
+        name: "Heatmap of Healthcare Centers in Belo Horizonte",
+        image: healthcareheatmap,
+        long_description: "This visualization helps in understanding the accessibility and availability of healthcare services for different neighborhoods. By highlighting areas with high and low concentrations of centers, city planners and health officials can make informed decisions on resource allocation, identify regions that may need additional facilities, and ensure equitable access to healthcare services for all residents. This map is a valuable tool for improving urban health planning and addressing healthcare needs in Belo Horizonte.",
         tools: 'QGIS',
     },
     {
