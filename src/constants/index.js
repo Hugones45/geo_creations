@@ -38,6 +38,7 @@ import vegeGO from "../assets/maps_proje/biom_vege_map.png"
 import araxa_savi from "../assets/maps_proje/vegetacao_savi_map.png"
 import geologic1 from "../assets/maps_proje/go-geologia-geomorfologia.png"
 import healthcareheatmap from "../assets/maps_proje/mapa_calor_bh_centro_saude.png"
+import moistureComp from "../assets/maps_proje/umidade_comparacao.png"
 
 import weather from "../assets/programming/weather.png"
 import route_fuel from "../assets/programming/route_fuel.png"
@@ -291,7 +292,12 @@ const projects = [
         long_description: "This thematic map of Araxá illustrates the SAVI (Soil-Adjusted Vegetation Index) across the municipality, highlighting variations in vegetation density. The map serves as a valuable tool for monitoring vegetation health, managing urban development, and supporting the creation of Melipona bees of the region. By providing insights into areas with different levels of vegetation cover, it supports decision-making in environmental conservation, land use planning, and sustainable development initiatives.",
         tools: 'QGIS',
     },
-
+    {
+        name: "Comparison of soil moisture in Araxá with NDMI.",
+        image: moistureComp,
+        long_description: "This map shows that due to global warming, the slight increase in moisture from 2019 to 2024 is not a positive development, as it coincides with an increase in dry areas, exacerbating regional imbalances and highlighting the negative impacts of climate change, such as the unequal distribution of water and the rise in extreme weather events.",
+        tools: 'QGIS',
+    },
     {
         name: "Mapping of Meliponas in Vulnerable Conditions in the Urban Environment",
         image: meli_loc,
@@ -338,12 +344,12 @@ const projects = [
 ];
 
 const projects2 = [
-    {
-        name: "Portfolio Fron-End",
-        image: port_front,
-        source_code_link: "https://github.com/Hugones45/portifolio_front",
-        source_code_app: "https://portifolio-front-rho.vercel.app/"
-    },
+    // {
+    //     name: "Portfolio Fron-End",
+    //     image: port_front,
+    //     source_code_link: "https://github.com/Hugones45/portifolio_front",
+    //     source_code_app: "https://portifolio-front-rho.vercel.app/"
+    // },
     {
         name: "Routes and Fuel ",
         image: route_fuel,
@@ -358,20 +364,20 @@ const projects2 = [
         source_code_app: "https://app-weather-time.vercel.app/"
 
     },
-    {
-        name: "3D T-Shirt Generator",
-        image: shirt_front,
-        source_code_link: "https://github.com/Hugones45/shirt_storege",
-        source_code_app: "https://shirt-storege.vercel.app/"
+    // {
+    //     name: "3D T-Shirt Generator",
+    //     image: shirt_front,
+    //     source_code_link: "https://github.com/Hugones45/shirt_storege",
+    //     source_code_app: "https://shirt-storege.vercel.app/"
 
-    },
-    {
-        name: "ShopCar Responsive",
-        image: shop_proje,
-        source_code_link: "https://github.com/Hugones45/shop-cart_with_data_base",
-        source_code_app: "https://shop-local-storage.vercel.app/"
+    // },
+    // {
+    //     name: "ShopCar Responsive",
+    //     image: shop_proje,
+    //     source_code_link: "https://github.com/Hugones45/shop-cart_with_data_base",
+    //     source_code_app: "https://shop-local-storage.vercel.app/"
 
-    },
+    // },
     {
         name: "Python Script Map Generator",
         image: geoPandass,
