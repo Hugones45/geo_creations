@@ -33,12 +33,17 @@ import uso_solo from "../assets/maps_proje/mapa_1_.png"
 import setores_sensi from "../assets/maps_proje/setores_sensi.png"
 import ods7 from "../assets/maps_proje/ods7.png"
 import pop_nun from "../assets/maps_proje/mapa_pop_nun_2022.png"
-import brazil_bio from "../assets/maps_proje/brazil_bio.png"
 import vegeGO from "../assets/maps_proje/biom_vege_map.png"
 import araxa_savi from "../assets/maps_proje/vegetacao_savi_map.png"
 import geologic1 from "../assets/maps_proje/go-geologia-geomorfologia.png"
 import healthcareheatmap from "../assets/maps_proje/mapa_calor_bh_centro_saude.png"
 import moistureComp from "../assets/maps_proje/umidade_comparacao.png"
+
+import brazil_bio from "../assets/maps_proje/arc/brazil_bio.png"
+import bh_utilities from "../assets/maps_proje/arc/bh_utilities_energy.jpg"
+import usdo_da_terra from "../assets/maps_proje/arc/uso_da_terra.jpg"
+import morfoestrutura from "../assets/maps_proje/arc/morfoestruturas_go.jpg"
+
 
 import weather from "../assets/programming/weather.png"
 import route_fuel from "../assets/programming/route_fuel.png"
@@ -257,10 +262,11 @@ const projects = [
         tools: 'QGIS',
     },
     {
+
         name: "Morphostructural Domains of Goiás",
-        image: geologic1,
+        image: morfoestrutura,
         long_description: "The Morphostructural Domains of Goiás map highlights the geological structures and landforms of the region. This detailed visualization is crucial for construction planning, helping engineers and planners identify suitable areas for development, assess potential risks, and ensure the stability and safety of construction projects.",
-        tools: 'QGIS',
+        tools: 'ARCGIS',
     },
     {
         name: "Geographic and Socioeconomic Characteristics of Minas Gerais",
@@ -273,6 +279,12 @@ const projects = [
         image: residuos,
         long_description: "An illustration of the different methods of household waste disposal across various regions. The map categorizes disposal practices into controlled landfills, sanitary landfills, open dumps, and areas with no information. This detailed visualization is essential for environmental planning and management, aiding authorities in identifying regions that need improved waste management infrastructure and policies.",
         tools: 'QGIS',
+    },
+    {
+        name: "Elevation and Infrastructure of Belo Horizonte",
+        image: bh_utilities,
+        long_description: "This map of Belo Horizonte provides valuable insights into the city's elevation and key infrastructure. It highlights hydrometeorological stations, which monitor weather conditions and water resources. Additionally, the map details the city's hydrographic basins, crucial for managing water flow and quality. It also includes the locations of energy substations, essential for understanding and planning the city's power distribution network. Together, these elements support effective urban planning and resource management.",
+        tools: 'ARCGIS',
     },
     {
         name: "Heatmap of Healthcare Centers in Belo Horizonte",
@@ -312,9 +324,9 @@ const projects = [
     },
     {
         name: "Land Use Map Araxá",
-        image: uso_solo,
+        image: usdo_da_terra,
         long_description: "This map vividly displays the diverse ways the land is utilized. It highlights agricultural areas, artificial surfaces, forest and campestral mosaics, managed pastures, silviculture, and various types of vegetation. This detailed depiction is an invaluable resource for urban planners, environmentalists, and policymakers to strategize sustainable land use, conserve natural resources, and enhance regional development.",
-        tools: 'QGIS',
+        tools: 'ARCGIS',
     },
     {
         name: "Map of Census Tracts of Araxá",
