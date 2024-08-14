@@ -38,6 +38,7 @@ import araxa_savi from "../assets/maps_proje/vegetacao_savi_map.png"
 import geologic1 from "../assets/maps_proje/go-geologia-geomorfologia.png"
 import healthcareheatmap from "../assets/maps_proje/mapa_calor_bh_centro_saude.png"
 import moistureComp from "../assets/maps_proje/umidade_comparacao.png"
+import rivers_south_america from "../assets/maps_proje/america_do_sul_rios.png"
 
 import brazil_bio from "../assets/maps_proje/arc/brazil_bio.png"
 import bh_utilities from "../assets/maps_proje/arc/bh_utilities_energy.jpg"
@@ -353,6 +354,12 @@ const projects = [
         long_description: "Cartographic representation to analyze and understand the environmental diversity of Brazil, identifying and delineating the different types of ecosystems present in our country.",
         tools: 'ARCGIS',
     },
+    {
+        name: "Rivers of South America",
+        image: rivers_south_america,
+        long_description: "Highlighting the complexity and density of watercourses across various regions, this map is a valuable tool for studying hydrological patterns in South America, including river flow dynamics, watershed boundaries, and the connectivity between different water bodies.",
+        tools: 'QGIS',
+    }
 ];
 
 const projects2 = [
