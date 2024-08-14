@@ -355,7 +355,7 @@ const projects = [
         tools: 'ARCGIS',
     },
     {
-        name: "Rivers of South America",
+        name: "Hydrographic networks of South America",
         image: rivers_south_america,
         long_description: "Highlighting the complexity and density of watercourses across various regions, this map is a valuable tool for studying hydrological patterns in South America, including river flow dynamics, watershed boundaries, and the connectivity between different water bodies.",
         tools: 'QGIS',
