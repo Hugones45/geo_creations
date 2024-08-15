@@ -44,6 +44,8 @@ import brazil_bio from "../assets/maps_proje/arc/brazil_bio.png"
 import bh_utilities from "../assets/maps_proje/arc/bh_utilities_energy.jpg"
 import usdo_da_terra from "../assets/maps_proje/arc/uso_da_terra.jpg"
 import morfoestrutura from "../assets/maps_proje/arc/morfoestruturas_go.jpg"
+import setores_sensiARC from "../assets/maps_proje/arc/setores_sesitarios.jpg"
+
 
 
 import weather from "../assets/programming/weather.png"
@@ -331,9 +333,9 @@ const projects = [
     },
     {
         name: "Map of Census Tracts of Araxá",
-        image: setores_sensi,
+        image: setores_sensiARC,
         long_description: "This map of Araxá classifies its sectors, enabling more efficient territorial management and comprehensive socioeconomic analysis. It offers a segmented view of the urban and rural characteristics of the municipality, providing valuable insights for regional development and planning.",
-        tools: 'QGIS',
+        tools: 'ARCGIS',
     },
 
     {
