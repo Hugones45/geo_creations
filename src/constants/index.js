@@ -44,8 +44,8 @@ import brazil_bio from "../assets/maps_proje/arc/brazil_bio.png"
 import bh_utilities from "../assets/maps_proje/arc/bh_utilities_energy.jpg"
 import usdo_da_terra from "../assets/maps_proje/arc/uso_da_terra.jpg"
 import morfoestrutura from "../assets/maps_proje/arc/morfoestruturas_go.jpg"
-import setores_sensiARC from "../assets/maps_proje/arc/setores_sesitarios.jpg"
-
+import setores_sensiARCs from "../assets/maps_proje/arc/setores_sesitarios.jpg"
+import sustenta_arc from "../assets/maps_proje/arc/niveis_sustenta.jpg"
 
 
 import weather from "../assets/programming/weather.png"
@@ -333,16 +333,16 @@ const projects = [
     },
     {
         name: "Map of Census Tracts of Araxá",
-        image: setores_sensiARC,
+        image: setores_sensiARCs,
         long_description: "This map of Araxá classifies its sectors, enabling more efficient territorial management and comprehensive socioeconomic analysis. It offers a segmented view of the urban and rural characteristics of the municipality, providing valuable insights for regional development and planning.",
         tools: 'ARCGIS',
     },
 
     {
         name: "Sustainable Development Index",
-        image: ods7,
+        image: sustenta_arc,
         long_description: "This map visually represents energy accessibility and cleanliness across Brazil's regions, emphasizing the critical role of SDG 7 in promoting environmental sustainability and fostering economic development through cleaner, more accessible energy sources.",
-        tools: 'QGIS',
+        tools: 'ARCGIS',
     },
     {
         name: "Population Map by Municipality",
