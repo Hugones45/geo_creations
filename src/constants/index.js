@@ -46,6 +46,7 @@ import usdo_da_terra from "../assets/maps_proje/arc/uso_da_terra.jpg"
 import morfoestrutura from "../assets/maps_proje/arc/morfoestruturas_go.jpg"
 import setores_sensiARCs from "../assets/maps_proje/arc/setores_sesitarios.jpg"
 import sustenta_arc from "../assets/maps_proje/arc/niveis_sustenta.jpg"
+import relevo_arc from "../assets/maps_proje/arc/relevo_hidro_araxa.jpg"
 
 
 import weather from "../assets/programming/weather.png"
@@ -296,10 +297,22 @@ const projects = [
         tools: 'QGIS',
     },
     {
+        name: "Relief and Hydrography of Araxá",
+        image: relevo_arc,
+        long_description: "The 'Relief and Hydrography of Araxá' map offers a comprehensive overview of the region's terrain and water features, supporting land use planning, environmental management, and infrastructure projects. It serves as a crucial tool for decision-making in sustainable development, like aiding in tracking environmental changes that could impact bee populations, thereby contributing to their conservation and the maintenance of local biodiversity.",
+        tools: 'ARCGIS',
+    },
+    {
         name: "Araxá Slope Map",
         image: declividade,
         long_description: "Delving into the topographic characteristics of Araxá to better identify areas prone to landslides and erosion, this slope map aids in agricultural planning, environmental management, and the strategic location of points for mineral extraction.",
         tools: 'QGIS',
+    },
+    {
+        name: "Land Use Map Araxá",
+        image: usdo_da_terra,
+        long_description: "This map vividly displays the diverse ways the land is utilized. It highlights agricultural areas, artificial surfaces, forest and campestral mosaics, managed pastures, silviculture, and various types of vegetation. This detailed depiction is an invaluable resource for urban planners, environmentalists, and policymakers to strategize sustainable land use, conserve natural resources, and enhance regional development.",
+        tools: 'ARCGIS',
     },
     {
         name: "Savi Vegetation Index of Araxá",
@@ -326,22 +339,9 @@ const projects = [
         tools: 'QGIS',
     },
     {
-        name: "Land Use Map Araxá",
-        image: usdo_da_terra,
-        long_description: "This map vividly displays the diverse ways the land is utilized. It highlights agricultural areas, artificial surfaces, forest and campestral mosaics, managed pastures, silviculture, and various types of vegetation. This detailed depiction is an invaluable resource for urban planners, environmentalists, and policymakers to strategize sustainable land use, conserve natural resources, and enhance regional development.",
-        tools: 'ARCGIS',
-    },
-    {
         name: "Map of Census Tracts of Araxá",
         image: setores_sensiARCs,
         long_description: "This map of Araxá classifies its sectors, enabling more efficient territorial management and comprehensive socioeconomic analysis. It offers a segmented view of the urban and rural characteristics of the municipality, providing valuable insights for regional development and planning.",
-        tools: 'ARCGIS',
-    },
-
-    {
-        name: "Sustainable Development Index",
-        image: sustenta_arc,
-        long_description: "This map visually represents energy accessibility and cleanliness across Brazil's regions, emphasizing the critical role of SDG 7 in promoting environmental sustainability and fostering economic development through cleaner, more accessible energy sources.",
         tools: 'ARCGIS',
     },
     {
@@ -349,6 +349,12 @@ const projects = [
         image: pop_nun,
         long_description: "Thematic map of the population of Brazilian municipalities based on data from the IBGE demographic census of 2022. Its data provides assistance for planning and decision-making in various areas such as health, education, infrastructure, and public policies.",
         tools: 'QGIS',
+    },
+    {
+        name: "Sustainable Development Index",
+        image: sustenta_arc,
+        long_description: "This map visually represents energy accessibility and cleanliness across Brazil's regions, emphasizing the critical role of SDG 7 in promoting environmental sustainability and fostering economic development through cleaner, more accessible energy sources.",
+        tools: 'ARCGIS',
     },
     {
         name: "Biomes of Brazil",
