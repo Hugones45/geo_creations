@@ -39,6 +39,7 @@ import geologic1 from "../assets/maps_proje/go-geologia-geomorfologia.png"
 import healthcareheatmap from "../assets/maps_proje/mapa_calor_bh_centro_saude.png"
 import moistureComp from "../assets/maps_proje/umidade_comparacao.png"
 import rivers_south_america from "../assets/maps_proje/america_do_sul_rios.png"
+import queimadas_inpe from "../assets/maps_proje/queimadas_comparacao_inpe.png"
 
 import brazil_bio from "../assets/maps_proje/arc/brazil_bio.png"
 import bh_utilities from "../assets/maps_proje/arc/bh_utilities_energy.jpg"
@@ -273,15 +274,21 @@ const projects = [
         tools: 'ARCGIS',
     },
     {
-        name: "Geographic and Socioeconomic Characteristics of Minas Gerais",
-        image: geo_economic,
-        long_description: "This thematic map of Minas Gerais illustrates the state's key geographical and socioeconomic features, including population distribution, elevation, Human Development Index (HDI), and Gross Domestic Product (GDP) per capita. The map serves as a valuable tool for understanding regional disparities and supporting decisions in urban planning, economic development, and social policy implementation.",
+        name: "Fire Hotspots in Minas Gerais (MG) and São Paulo (SP)",
+        image: queimadas_inpe,
+        long_description: "This map reveals a significant increase in fire incidents over the past year, highlighting regions with the highest concentrations of these events. By visualizing this data, the map serves as a crucial tool for understanding trends and patterns in fire occurrences. Effective monitoring and analysis of these hotspots can assist in identifying vulnerable areas, enabling targeted interventions and preventive measures.",
         tools: 'QGIS',
     },
     {
         name: "Final disposal of household waste",
         image: residuos,
         long_description: "An illustration of the different methods of household waste disposal across various regions. The map categorizes disposal practices into controlled landfills, sanitary landfills, open dumps, and areas with no information. This detailed visualization is essential for environmental planning and management, aiding authorities in identifying regions that need improved waste management infrastructure and policies.",
+        tools: 'QGIS',
+    },
+    {
+        name: "Geographic and Socioeconomic Characteristics of Minas Gerais",
+        image: geo_economic,
+        long_description: "This thematic map of Minas Gerais illustrates the state's key geographical and socioeconomic features, including population distribution, elevation, Human Development Index (HDI), and Gross Domestic Product (GDP) per capita. The map serves as a valuable tool for understanding regional disparities and supporting decisions in urban planning, economic development, and social policy implementation.",
         tools: 'QGIS',
     },
     {
@@ -330,12 +337,6 @@ const projects = [
         name: "Mapping of Meliponas in Vulnerable Conditions in the Urban Environment",
         image: meli_loc,
         long_description: "Research conducted in a part of downtown Araxá. The survey was conducted to understand the dispersion and interaction of local native bees, their development, and the dangers threatening the hives. The presence of Meliponas in the urban environment plays a crucial role in the city's health, as these native bees are excellent pollinators, contributing to the maintenance of gardens, parks, and urban green areas. Additionally, Meliponas help improve air quality and mitigate the effects of global warming, making them essential for the ecological resilience of cities.",
-        tools: 'QGIS',
-    },
-    {
-        name: "Location of the Municipality of Araxá",
-        image: araxa_loc,
-        long_description: "Cartographic representation of the location of the city of Araxá, guiding and facilitating travel planning, the study of spatial relationships, and the analysis of proximity to adjacent resources and infrastructure.",
         tools: 'QGIS',
     },
     {
