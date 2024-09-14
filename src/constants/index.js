@@ -40,6 +40,7 @@ import healthcareheatmap from "../assets/maps_proje/mapa_calor_bh_centro_saude.p
 import moistureComp from "../assets/maps_proje/umidade_comparacao.png"
 import rivers_south_america from "../assets/maps_proje/america_do_sul_rios.png"
 import queimadas_inpe from "../assets/maps_proje/queimadas_comparacao_inpe.png"
+import mapa_sub_bacias_hidrograficas_araxa from "../assets/maps_proje/mapa_sub_bacias_hidrograficas_araxa.png"
 
 import brazil_bio from "../assets/maps_proje/arc/brazil_bio.png"
 import bh_utilities from "../assets/maps_proje/arc/bh_utilities_energy.jpg"
@@ -286,42 +287,6 @@ const projects = [
         tools: 'QGIS',
     },
     {
-        name: "Geographic and Socioeconomic Characteristics of Minas Gerais",
-        image: geo_economic,
-        long_description: "This thematic map of Minas Gerais illustrates the state's key geographical and socioeconomic features, including population distribution, elevation, Human Development Index (HDI), and Gross Domestic Product (GDP) per capita. The map serves as a valuable tool for understanding regional disparities and supporting decisions in urban planning, economic development, and social policy implementation.",
-        tools: 'QGIS',
-    },
-    {
-        name: "Elevation and Infrastructure of Belo Horizonte",
-        image: bh_utilities,
-        long_description: "This map of Belo Horizonte provides valuable insights into the city's elevation and key infrastructure. It highlights hydrometeorological stations, which monitor weather conditions and water resources. Additionally, the map details the city's hydrographic basins, crucial for managing water flow and quality. It also includes the locations of energy substations, essential for understanding and planning the city's power distribution network. Together, these elements support effective urban planning and resource management.",
-        tools: 'ARCGIS',
-    },
-    {
-        name: "Heatmap of Healthcare Centers in Belo Horizonte",
-        image: healthcareheatmap,
-        long_description: "This visualization helps in understanding the accessibility and availability of healthcare services for different neighborhoods. By highlighting areas with high and low concentrations of centers, city planners and health officials can make informed decisions on resource allocation, identify regions that may need additional facilities, and ensure equitable access to healthcare services for all residents. This map is a valuable tool for improving urban health planning and addressing healthcare needs in Belo Horizonte.",
-        tools: 'QGIS',
-    },
-    {
-        name: "Relief and Hydrography of Araxá",
-        image: relevo_arc,
-        long_description: "The 'Relief and Hydrography of Araxá' map offers a comprehensive overview of the region's terrain and water features, supporting land use planning, environmental management, and infrastructure projects. It serves as a crucial tool for decision-making in sustainable development, like aiding in tracking environmental changes that could impact bee populations, thereby contributing to their conservation and the maintenance of local biodiversity.",
-        tools: 'ARCGIS',
-    },
-    {
-        name: "Araxá Slope Map",
-        image: declividade,
-        long_description: "Delving into the topographic characteristics of Araxá to better identify areas prone to landslides and erosion, this slope map aids in agricultural planning, environmental management, and the strategic location of points for mineral extraction.",
-        tools: 'QGIS',
-    },
-    {
-        name: "Land Use Map Araxá",
-        image: usdo_da_terra,
-        long_description: "This map vividly displays the diverse ways the land is utilized. It highlights agricultural areas, artificial surfaces, forest and campestral mosaics, managed pastures, silviculture, and various types of vegetation. This detailed depiction is an invaluable resource for urban planners, environmentalists, and policymakers to strategize sustainable land use, conserve natural resources, and enhance regional development.",
-        tools: 'ARCGIS',
-    },
-    {
         name: "Savi Vegetation Index of Araxá",
         image: araxa_savi,
         long_description: "This thematic map of Araxá illustrates the SAVI (Soil-Adjusted Vegetation Index) across the municipality, highlighting variations in vegetation density. The map serves as a valuable tool for monitoring vegetation health, managing urban development, and supporting the creation of Melipona bees of the region. By providing insights into areas with different levels of vegetation cover, it supports decision-making in environmental conservation, land use planning, and sustainable development initiatives.",
@@ -334,16 +299,53 @@ const projects = [
         tools: 'QGIS',
     },
     {
+        name: "Hydrographic Sub-Basins of Araxá",
+        image: mapa_sub_bacias_hidrograficas_araxa,
+        long_description: "This map illustrates the distribution of the sub-basins in the Araxá region, highlighting the main drainage areas, represented by distinct colors. Each sub-basin is identified according to its respective stream or main river, including important watercourses such as Córrego da Galinha, Córrego do Retiro, and the Marmelo and Tamanduá rivers, among others. All hydrological data were obtained from a single Digital Elevation Model (DEM), extracted from the NASADEM mission, available on the OpenTopography portal.",
+        tools: 'QGIS',
+    },
+    {
+        name: "Araxá Slope Map",
+        image: declividade,
+        long_description: "Delving into the topographic characteristics of Araxá to better identify areas prone to landslides and erosion, this slope map aids in agricultural planning, environmental management, and the strategic location of points for mineral extraction.",
+        tools: 'QGIS',
+    },
+
+    {
+        name: "Land Use Map Araxá",
+        image: usdo_da_terra,
+        long_description: "This map vividly displays the diverse ways the land is utilized. It highlights agricultural areas, artificial surfaces, forest and campestral mosaics, managed pastures, silviculture, and various types of vegetation. This detailed depiction is an invaluable resource for urban planners, environmentalists, and policymakers to strategize sustainable land use, conserve natural resources, and enhance regional development.",
+        tools: 'ARCGIS',
+    },
+    {
         name: "Mapping of Meliponas in Vulnerable Conditions in the Urban Environment",
         image: meli_loc,
         long_description: "Research conducted in a part of downtown Araxá. The survey was conducted to understand the dispersion and interaction of local native bees, their development, and the dangers threatening the hives. The presence of Meliponas in the urban environment plays a crucial role in the city's health, as these native bees are excellent pollinators, contributing to the maintenance of gardens, parks, and urban green areas. Additionally, Meliponas help improve air quality and mitigate the effects of global warming, making them essential for the ecological resilience of cities.",
         tools: 'QGIS',
     },
     {
+        name: "Relief and Hydrography of Araxá",
+        image: relevo_arc,
+        long_description: "The 'Relief and Hydrography of Araxá' map offers a comprehensive overview of the region's terrain and water features, supporting land use planning, environmental management, and infrastructure projects. It serves as a crucial tool for decision-making in sustainable development, like aiding in tracking environmental changes that could impact bee populations, thereby contributing to their conservation and the maintenance of local biodiversity.",
+        tools: 'ARCGIS',
+    },
+    {
         name: "Map of Census Tracts of Araxá",
         image: setores_sensiARCs,
         long_description: "This map of Araxá classifies its sectors, enabling more efficient territorial management and comprehensive socioeconomic analysis. It offers a segmented view of the urban and rural characteristics of the municipality, providing valuable insights for regional development and planning.",
         tools: 'ARCGIS',
+    },
+    {
+        name: "Elevation and Infrastructure of Belo Horizonte",
+        image: bh_utilities,
+        long_description: "This map of Belo Horizonte provides valuable insights into the city's elevation and key infrastructure. It highlights hydrometeorological stations, which monitor weather conditions and water resources. Additionally, the map details the city's hydrographic basins, crucial for managing water flow and quality. It also includes the locations of energy substations, essential for understanding and planning the city's power distribution network. Together, these elements support effective urban planning and resource management.",
+        tools: 'ARCGIS',
+    },
+    {
+        name: "Heatmap of Healthcare Centers in Belo Horizonte",
+        image: healthcareheatmap,
+        long_description: "This visualization helps in understanding the accessibility and availability of healthcare services for different neighborhoods. By highlighting areas with high and low concentrations of centers, city planners and health officials can make informed decisions on resource allocation, identify regions that may need additional facilities, and ensure equitable access to healthcare services for all residents. This map is a valuable tool for improving urban health planning and addressing healthcare needs in Belo Horizonte.",
+        tools: 'QGIS',
     },
     {
         name: "Population Map by Municipality",
