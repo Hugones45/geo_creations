@@ -49,7 +49,7 @@ import morfoestrutura from "../assets/maps_proje/arc/morfoestruturas_go.jpg"
 import setores_sensiARCs from "../assets/maps_proje/arc/setores_sesitarios.jpg"
 import sustenta_arc from "../assets/maps_proje/arc/niveis_sustenta.jpg"
 import relevo_arc from "../assets/maps_proje/arc/relevo_hidro_araxa.jpg"
-
+import bh_relevo_curvas_arc from "../assets/maps_proje/arc/bh-relevo-curvas-de-nivel.jpg"
 
 import weather from "../assets/programming/weather.png"
 import route_fuel from "../assets/programming/route_fuel.png"
@@ -336,9 +336,9 @@ const projects = [
         tools: 'ARCGIS',
     },
     {
-        name: "Elevation and Infrastructure of Belo Horizonte",
-        image: bh_utilities,
-        long_description: "This map of Belo Horizonte provides valuable insights into the city's elevation and key infrastructure. It highlights hydrometeorological stations, which monitor weather conditions and water resources. Additionally, the map details the city's hydrographic basins, crucial for managing water flow and quality. It also includes the locations of energy substations, essential for understanding and planning the city's power distribution network. Together, these elements support effective urban planning and resource management.",
+        name: "Belo Horizonte: Relief and Contour Lines",
+        image: bh_relevo_curvas_arc,
+        long_description: "A map of Belo Horizonte featuring its relief and contour lines is a valuable tool for urban planning, environmental studies, and infrastructure development. It helps visualize the city's topography, highlighting elevation changes and terrain features, which are important for construction projects, flood risk analysis, and land use planning. Contour lines provide detailed information on slope gradients, making it easier to assess suitable areas for development or conservation. The map also aids in transportation planning, as elevation impacts road and railway design. It's useful for tourism, hiking, and geographic education.",
         tools: 'ARCGIS',
     },
     {
