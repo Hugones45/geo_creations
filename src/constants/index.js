@@ -52,7 +52,7 @@ import relevo_arc from "../assets/maps_proje/arc/relevo_hidro_araxa.jpg"
 import bh_relevo_curvas_arc from "../assets/maps_proje/arc/bh-relevo-curvas-de-nivel.jpg"
 
 import weather from "../assets/programming/weather.png"
-import route_fuel from "../assets/programming/route_fuel.png"
+import dynamic_maps from "../assets/programming/dynamic_maps.png"
 
 import meli_araxa from "../assets/company/bee.jpg"
 import udemy from "../assets/company/udemy.png"
@@ -381,10 +381,10 @@ const projects2 = [
     //     source_code_app: "https://portifolio-front-rho.vercel.app/"
     // },
     {
-        name: "Routes and Fuel ",
-        image: route_fuel,
-        source_code_link: "https://github.com/Hugones45/Route-and-Fuel-Google-Maps",
-        source_code_app: "https://route-and-fuel-google-maps.vercel.app/"
+        name: "Dynamic Maps",
+        image: dynamic_maps,
+        source_code_link: "https://github.com/Hugones45/dynamic_geo_app_sec",
+        source_code_app: "https://dynamic-maps-sec.vercel.app/"
 
     },
     {
@@ -394,6 +394,7 @@ const projects2 = [
         source_code_app: "https://app-weather-time.vercel.app/"
 
     },
+
     // {
     //     name: "3D T-Shirt Generator",
     //     image: shirt_front,
