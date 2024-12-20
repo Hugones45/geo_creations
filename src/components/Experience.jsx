@@ -60,12 +60,12 @@ const Experience = () => {
   };
 
   const handleDownload = () => {
-    const resumePath = language === 'en' ? '/resume/resume_hugo_e.pdf' : '/resume/resume_hugo_p.pdf';
+    const resumePath = language === 'en' ? '/resume/Curriculum Vitae - Hugo Morais.pdf' : '/resume/Curriculum Vitae - Hugo Morais pt.pdf';
 
     const link = document.createElement('a');
     link.href = resumePath;
 
-    link.download = `Curriculo_${language.toUpperCase()}.pdf`;
+    link.download = `Curriculum Vitae - Hugo Morais ${language.toUpperCase()}.pdf`;
 
     document.body.appendChild(link);
     link.click();
