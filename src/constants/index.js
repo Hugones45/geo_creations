@@ -226,7 +226,7 @@ const experiences = [
         iconBg: "#e2e51a",
         date: "Jan 2023 - Present",
         points: [
-            "User support by resolving technical issues and guiding system users",
+            "User support by resolving technical issues and guiding system users.",
             "Managing and updating the platform's database to ensure the accuracy and integrity of user registrations, active campaigns, and product offerings.",
             "Knowledge of the company's business rules and investigation of system errors.",
         ],
