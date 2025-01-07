@@ -214,7 +214,7 @@ const experiences = [
         points: [
             "Creation of a chatbot for investigations of the Civil Police of Minas Gerais.",
             "Development of logic and user interface for a Decision Engine PoD focused on loans.",
-            "Development and maintenance of web applications using React.js and other related technologies.",
+            "Conducted end-to-end (E2E) and component testing to ensure functionality, reliability, and seamless user experiences.",
             "Reviewed and refined application manuals to improve clarity, usability, and accessibility for end-users and stakeholders..",
         ],
     },
