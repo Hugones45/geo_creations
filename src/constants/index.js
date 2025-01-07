@@ -212,10 +212,11 @@ const experiences = [
         iconBg: "#fff",
         date: "Jan 2022 - Jan 2023",
         points: [
-            "Creation of a chatbot for investigations of the Civil Police of Minas Gerais.",
-            "Development of logic and user interface for a Decision Engine PoD focused on loans.",
+            "Development of a interface for a Decision Engine application, specializing in loan processes and optimization.",
+            "Design and creation of an interface for a chatbot used in investigative operations by the Civil Police of Minas Gerais.",
+            "Created a customizable application interface designed to adapt to a wide variety of products, including solutions for energy companies and other industries.",
             "Conducted end-to-end (E2E) and component testing to ensure functionality, reliability, and seamless user experiences.",
-            "Reviewed and refined application manuals to improve clarity, usability, and accessibility for end-users and stakeholders..",
+            "Reviewed and refined application manuals to improve clarity, usability, and accessibility for end-users and stakeholders."
         ],
     },
     {
@@ -225,10 +226,9 @@ const experiences = [
         iconBg: "#e2e51a",
         date: "Jan 2023 - Present",
         points: [
-            "Support for platform users.",
-            "Supervision and maintenance of registrations, campaigns and products.",
-            "Knowledge of the company's business rules.",
-            "Investigation of system errors.",
+            "User support by resolving technical issues and guiding system users",
+            "Managing and updating the platform's database to ensure the accuracy and integrity of user registrations, active campaigns, and product offerings.",
+            "Knowledge of the company's business rules and investigation of system errors.",
         ],
     }
 ];
