@@ -53,19 +53,14 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
 
-  const [language, setLanguage] = useState('en');
-
-  const handleChangeLanguage = (selectedLanguage) => {
-    setLanguage(selectedLanguage);
-  };
-
   const handleDownload = () => {
-    const resumePath = language === 'en' ? '/resume/Curriculum Vitae - Hugo Morais.pdf' : '/resume/Curriculum Vitae - Hugo Morais pt.pdf';
+    // Always download the English version of the resume
+    const resumePath = '/resume/Curriculum Vitae-Hugo Morais.pdf';
 
     const link = document.createElement('a');
     link.href = resumePath;
 
-    link.download = `Curriculum Vitae - Hugo Morais ${language.toUpperCase()}.pdf`;
+    link.download = 'Curriculum Vitae - Hugo Morais.pdf';
 
     document.body.appendChild(link);
     link.click();
@@ -80,19 +75,8 @@ const Experience = () => {
 
       <motion.div
         variants={textVariant()}
-        className="inline-flex gap-14 border-2 border-white p-4 mt-2 rounded"
+        className="inline-flex gap-14  p-4 mt-2 rounded"
       >
-        <div className="flex gap-3 flex-col items-center mr-[-15px] ml-6">
-          <p>Choose the language</p>
-
-          <select value={language} onChange={(e) => handleChangeLanguage(e.target.value)}>
-            <option value="en">English</option>
-            <option value="pt">Portuguese</option>
-          </select>
-
-        </div >
-
-
         <button
           style={{
             marginRight: '30px',
@@ -108,22 +92,13 @@ const Experience = () => {
         >Download Resume</button>
       </motion.div>
 
-      {/* <div className="flex flex-row flex-wrap gap-6 mt-10">
-        {certificates.map((certificate, index) => (
-          <CertificateCard key={index} certificate={certificate} />
-        ))}
-      </div> */}
-
       <div className="mt-20 flex flex-col">
-
         <VerticalTimeline>
           {experiences.map((item, index) =>
             <ExperienceCard key={index} experience={item} />
           )}
 
         </VerticalTimeline>
-
-
       </div>
     </>
   )
