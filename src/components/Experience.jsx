@@ -52,7 +52,7 @@ const Experience = () => {
 
   const handleDownload = () => {
     // Always download the English version of the resume
-    const resumePath = '/resume/Curriculum Vitae-Hugo Morais.pdf';
+    const resumePath = '/resume/Curriculum Vitae - Hugo Morais.pdf';
 
     const link = document.createElement('a');
     link.href = resumePath;
