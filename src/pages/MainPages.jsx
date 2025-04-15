@@ -13,6 +13,7 @@ const MainPages = () => {
                     <StarsCanvas />
 
                 </div>
+                <About />
 
                 <Works />
 
@@ -21,11 +22,9 @@ const MainPages = () => {
                 <Hero />
 
 
-
                 <Experience />
                 <Tech />
 
-                <About />
 
             </div>
         </div>

@@ -57,17 +57,20 @@ import dynamic_maps from "../assets/programming/dynamic_maps.png"
 import meli_araxa from "../assets/company/bee.jpg"
 import udemy from "../assets/company/udemy.png"
 
-import port_front from "../assets/port_front.png"
-import shop_proje from "../assets/shop_front.png"
-import shirt_front from "../assets/shirt_front.png"
+import meli_map from "../assets/programming/meli_map.png"
+import search_boundaries from "../assets/programming/search_boundaries_1.png"
+import stingless_school from "../assets/programming/meliponas_web.png"
 import geoPandass from "../assets/geopandas_logo.png"
 
 export const navLinks = [
 
-
+    {
+        id: "programming",
+        title: "Dev & GIS",
+    },
     {
         id: "work",
-        title: "Work",
+        title: "Geospatial Works",
     },
     {
         id: "geoApp",
@@ -77,60 +80,29 @@ export const navLinks = [
         id: "experience",
         title: "Experience",
     },
-    {
-        id: "programming",
-        title: "Programming",
-    },
+
 ];
 
-const services = [
-    {
-        title: "Front-End Portifolio",
-        icon: port_front,
-    },
-    {
-        title: "Shop",
-        icon: shop_proje,
-    },
-    {
-        title: "3D Shirt Generator",
-        icon: shirt_front,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
-];
+// const services = [
+//     // {
+//     //     title: "Front-End Portifolio",
+//     //     icon: port_front,
+//     // },
+//     {
+//         title: "Shop",
+//         icon: shop_proje,
+//     },
+//     {
+//         title: "3D Shirt Generator",
+//         icon: shirt_front,
+//     },
+//     {
+//         title: "Content Creator",
+//         icon: creator,
+//     },
+// ];
 
 const technologies = [
-    {
-        name: "QGis",
-        icon: qgis,
-    },
-    {
-        name: "Arc Gis",
-        icon: arcgis,
-    },
-    {
-        name: "python",
-        icon: python,
-    },
-    {
-        name: "geopandas",
-        icon: geop,
-    },
-    {
-        name: "SQL",
-        icon: sql
-    },
-    {
-        name: "PostGree",
-        icon: postgre2
-    },
-    {
-        name: "Post Gis",
-        icon: postgis
-    },
     {
         name: "HTML 5",
         icon: html,
@@ -159,6 +131,34 @@ const technologies = [
         name: "Tailwind CSS",
         icon: tailwind,
     },
+    {
+        name: "QGis",
+        icon: qgis,
+    },
+    {
+        name: "Arc Gis",
+        icon: arcgis,
+    },
+    {
+        name: "python",
+        icon: python,
+    },
+    {
+        name: "geopandas",
+        icon: geop,
+    },
+    {
+        name: "SQL",
+        icon: sql
+    },
+    {
+        name: "PostGree",
+        icon: postgre2
+    },
+    {
+        name: "Post Gis",
+        icon: postgis
+    }
 ];
 
 const certificates = [
@@ -374,12 +374,26 @@ const projects = [
 ];
 
 const projects2 = [
-    // {
-    //     name: "Portfolio Fron-End",
-    //     image: port_front,
-    //     source_code_link: "https://github.com/Hugones45/portifolio_front",
-    //     source_code_app: "https://portifolio-front-rho.vercel.app/"
-    // },
+    {
+        name: "Meliponas Web Map",
+        image: meli_map,
+        source_code_link: "https://github.com/Hugones45/meli_map",
+        source_code_app: "https://meli-map.vercel.app/"
+    },
+    {
+        name: "The Stingless School",
+        image: stingless_school,
+        source_code_link: "https://github.com/Hugones45/meliponas_web_responsive",
+        source_code_app: "https://meliponas-web-responsive.vercel.app/"
+
+    },
+    {
+        name: "Geo Finder",
+        image: search_boundaries,
+        source_code_link: "https://github.com/Hugones45/search_boundaries/tree/master",
+        source_code_app: "https://search-world-boundaries.vercel.app/"
+
+    },
     {
         name: "Dynamic Maps",
         image: dynamic_maps,
@@ -395,20 +409,8 @@ const projects2 = [
 
     },
 
-    // {
-    //     name: "3D T-Shirt Generator",
-    //     image: shirt_front,
-    //     source_code_link: "https://github.com/Hugones45/shirt_storege",
-    //     source_code_app: "https://shirt-storege.vercel.app/"
 
-    // },
-    // {
-    //     name: "ShopCar Responsive",
-    //     image: shop_proje,
-    //     source_code_link: "https://github.com/Hugones45/shop-cart_with_data_base",
-    //     source_code_app: "https://shop-local-storage.vercel.app/"
 
-    // },
     {
         name: "Python Script Map Generator",
         image: geoPandass,
@@ -416,4 +418,4 @@ const projects2 = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects, projects2, certificates };
+export { technologies, experiences, testimonials, projects, projects2, certificates };
