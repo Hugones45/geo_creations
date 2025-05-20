@@ -54,7 +54,7 @@ import bh_relevo_curvas_arc from "../assets/maps_proje/arc/bh-relevo-curvas-de-n
 import weather from "../assets/programming/weather.png"
 import dynamic_maps from "../assets/programming/dynamic_maps.png"
 
-import meli_araxa from "../assets/company/bee.jpg"
+import meli_araxa from "../assets/company/logo_free_volun.jpg"
 import udemy from "../assets/company/udemy.png"
 
 import meli_map from "../assets/programming/meli_map.png"
@@ -194,15 +194,15 @@ const certificates = [
 
 const experiences = [
     {
-        title: "Meliponicultores Araxá - Minas Gerais",
-        company_name: "Geoprocessing Analyst - Volunteer Work",
+        title: "Freelance and Volunteer Work, Geo Analyst and Web GIS Developer, Araxá, Brazil ",
+        company_name: "Geoprocessing Analyst and Developer of Dynamic Web Maps",
         icon: meli_araxa,
-        iconBg: "#fff",
+        iconBg: "#C6EAFE",
         points: [
-            "Development of projects for the preservation of native bee species in urban environments using ArcGIS and QGIS.",
-            "Implementation of predictive models to assess environmental impact on bee populations.",
+            "Developed and published interactive web maps using Leaflet and Esri’s ArcGIS Maps SDK for Javascript. ",
+            "Performed spatial operations such as intersection, interpolation, watershed delimitation, relief modeling, and contour line generation. ",
+            "Worked with geospatial data formats such as Shapefiles and GeoJSON.",
             "Collection, organization, cleaning, and standardization of data from public and private sources, ensuring quality and accuracy of databases and geospatial data.",
-            "Application of spatial analyses to identify and monitor critical areas for the conservation of stingless bees.",
         ],
     },
     {
