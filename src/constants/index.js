@@ -51,8 +51,8 @@ import sustenta_arc from "../assets/maps_proje/arc/niveis_sustenta.jpg"
 import relevo_arc from "../assets/maps_proje/arc/relevo_hidro_araxa.jpg"
 import bh_relevo_curvas_arc from "../assets/maps_proje/arc/bh-relevo-curvas-de-nivel.jpg"
 
-import weather from "../assets/programming/weather.png"
-import dynamic_maps from "../assets/programming/dynamic_maps.png"
+import weather from "../assets/programming/weather_raster.png"
+import topo from "../assets/programming/topo.png"
 
 import meli_araxa from "../assets/company/logo_free_volun.jpg"
 import udemy from "../assets/company/udemy.png"
@@ -395,17 +395,17 @@ const projects2 = [
 
     },
     {
-        name: "Dynamic Maps",
-        image: dynamic_maps,
-        source_code_link: "https://github.com/Hugones45/dynamic_geo_app_sec",
-        source_code_app: "https://dynamic-maps-sec.vercel.app/"
+        name: "Terrain Explorer Araxá",
+        image: topo,
+        source_code_link: "https://github.com/Hugones45/Terrain-Gradient-Explorer-Araxa",
+        source_code_app: "https://terrain-gradient-explorer-araxa.vercel.app/"
 
     },
     {
-        name: "Real-Time Weather",
+        name: "Weather Vista",
         image: weather,
-        source_code_link: "https://github.com/Hugones45/app_weather_time",
-        source_code_app: "https://app-weather-time.vercel.app/"
+        source_code_link: "https://github.com/Hugones45/Weather_watch",
+        source_code_app: "https://weather-vista-nu.vercel.app/"
 
     },
 
