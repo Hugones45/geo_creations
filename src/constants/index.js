@@ -17,7 +17,7 @@ import arcgis from "../assets/tech/arcgis.png"
 import sql from "../assets/tech/s.png"
 import postgre2 from "../assets/tech/pngwing.com.png"
 import postgis from "../assets/tech/postgis.png"
-
+import mapbox from "../assets/tech/mapbox-icon-2048x2048-pmda994e.png"
 
 import bittec from "../assets/bittech.png"
 import power from "../assets/power.png"
@@ -132,6 +132,10 @@ const technologies = [
         icon: tailwind,
     },
     {
+        name: "MapBox",
+        icon: mapbox,
+    },
+    {
         name: "QGis",
         icon: qgis,
     },
@@ -155,10 +159,6 @@ const technologies = [
         name: "PostGree",
         icon: postgre2
     },
-    {
-        name: "Post Gis",
-        icon: postgis
-    }
 ];
 
 const certificates = [
@@ -199,7 +199,7 @@ const experiences = [
         icon: meli_araxa,
         iconBg: "#C6EAFE",
         points: [
-            "Developed and published interactive web maps using Leaflet and Esri’s ArcGIS Maps SDK for Javascript. ",
+            "Developed and published interactive web maps using MapBox, Leaflet and Esri’s ArcGIS Maps SDK for Javascript. ",
             "Performed spatial operations such as intersection, interpolation, watershed delimitation, relief modeling, and contour line generation. ",
             "Worked with geospatial data formats such as Shapefiles and GeoJSON.",
             "Collection, organization, cleaning, and standardization of data from public and private sources, ensuring quality and accuracy of databases and geospatial data.",
