@@ -59,7 +59,7 @@ import udemy from "../assets/company/udemy.png"
 
 import meli_map from "../assets/programming/meli_map.png"
 import search_boundaries from "../assets/programming/search_boundaries_1.png"
-import stingless_school from "../assets/programming/meliponas_web.png"
+import stingless_school from "../assets/programming/meliponas_web1.png"
 import geoPandass from "../assets/geopandas_logo.png"
 
 export const navLinks = [
