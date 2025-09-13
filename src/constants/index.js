@@ -61,6 +61,7 @@ import meli_map from "../assets/programming/meli_map.png"
 import search_boundaries from "../assets/programming/search_boundaries_1.png"
 import stingless_school from "../assets/programming/meliponas_web1.png"
 import geoPandass from "../assets/geopandas_logo.png"
+import spider_map from "../assets/programming/spider_map.png"
 
 export const navLinks = [
 
@@ -374,6 +375,12 @@ const projects = [
 ];
 
 const projects2 = [
+    {
+        name: "The Spider Map!",
+        image: spider_map,
+        source_code_link: "",
+        source_code_app: "https://spider-map-base.vercel.app/"
+    },
     {
         name: "Meliponas Web Map",
         image: meli_map,

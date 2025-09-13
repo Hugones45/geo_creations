@@ -11,6 +11,7 @@ import { fadeIn, textVariant } from "../utils/motion"
 import google from "../assets/google.png"
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, code_key, source_code_app }) => {
+  const isFirstItem = index === 0;
   const isLastItem = index === projects2.length - 1;
 
   return (
@@ -33,7 +34,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-2">
-            {/* Tooltip for Google Chrome icon */}
+            {/* Google Chrome icon for all items except the last one */}
             {!isLastItem && (
               <div
                 onClick={() => window.open(source_code_app, "_blank")}
@@ -48,18 +49,20 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
               </div>
             )}
 
-            {/* Tooltip for GitHub icon */}
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-              title="To GitHub"
-            >
-              <img
-                src={github}
-                alt="GitHub"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+            {/* GitHub icon for all items except the first one */}
+            {!isFirstItem && (
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                title="To GitHub"
+              >
+                <img
+                  src={github}
+                  alt="GitHub"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            )}
           </div>
 
         </div>
