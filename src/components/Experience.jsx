@@ -64,13 +64,19 @@ const Experience = () => {
     document.body.removeChild(link);
   };
 
+  const handleLinkedIn = () => {
+    window.open('https://www.linkedin.com/in/hugo-alex/', '_blank');
+  };
+
+  const [myStore] = useState("My linkedin")
+
   return (
     <>
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>Professional Experience</h2>
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         variants={textVariant()}
         className="inline-flex gap-14  p-4 mt-2 rounded"
       >
@@ -87,6 +93,34 @@ const Experience = () => {
           onClick={handleDownload}
           className="hover:bg-blue-600 hover:text-white"
         >Download Resume</button>
+      </motion.div> */}
+
+      <motion.div
+        variants={textVariant()}
+        className="inline-flex gap-4 p-4 mt-2"
+      >
+        <motion.button
+          onClick={handleLinkedIn}
+          className="text-white font-bold text-lg px-6 py-2 rounded-lg shadow-lg"
+          animate={{
+            backgroundColor: [
+              "#3b82f6", // blue
+              "#6366f1", // indigo
+              "#f59e0b", // amber
+              "#ef4444", // red
+              "#10b981", // green
+              "#3b82f6", // back to blue
+            ],
+          }}
+          transition={{
+            duration: 8, // total time to go through all colors
+            repeat: Infinity,
+            repeatType: "loop",
+            ease: "easeInOut", // smooth transition
+          }}
+        >
+          {myStore.toUpperCase()}
+        </motion.button>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
