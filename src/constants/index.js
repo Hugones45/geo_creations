@@ -195,15 +195,15 @@ const certificates = [
 
 const experiences = [
     {
-        title: "Freelance and Volunteer Work, Geo Analyst and Web GIS Developer, Araxá, Brazil ",
+        title: "Geospatial Analyst and Web GIS Developer , Araxá, Brazil ",
         company_name: "Geoprocessing Analyst and Developer of Dynamic Web Maps",
         icon: meli_araxa,
         iconBg: "#C6EAFE",
         points: [
-            "Developed and published interactive web maps using MapBox, Leaflet and Esri’s ArcGIS Maps SDK for Javascript. ",
+            "Designed and prototyped an innovative 'spider' map to manage and visualize distances between user-defined locations. The design and concept were selected for consideration at COP30, demonstrating the ability to create cutting-edge cartographic solutions for high-impact global events;",
             "Performed spatial operations such as intersection, interpolation, watershed delimitation, relief modeling, and contour line generation. ",
             "Worked with geospatial data formats such as Shapefiles and GeoJSON.",
-            "Collection, organization, cleaning, and standardization of data from public and private sources, ensuring quality and accuracy of databases and geospatial data.",
+            "Conducted a geospatial impact study for native bee conservation in Araxá. The project involved data collection, spatial analysis of contamination zones, and intuitive visualization, resulting in a 20% reduction n colony mortality; ",
         ],
     },
     {
@@ -213,10 +213,9 @@ const experiences = [
         iconBg: "#fff",
         date: "Jan 2022 - Jan 2023",
         points: [
-            "Development of a interface for a Decision Engine application, specializing in loan processes and optimization.",
-            "Design and creation of an interface for a chatbot used in investigative operations by the Civil Police of Minas Gerais.",
-            "Created a customizable application interface designed to adapt to a wide variety of products, including solutions for energy companies and other industries.",
-            "Conducted end-to-end (E2E) and component testing to ensure functionality, reliability, and seamless user experiences.",
+            "Created UX/UI design and developed the front-end for a highly versatile and customizable administrative dashboard model. This model is now the primary interface for major clients, including Coca-Cola, Cemig, Polícia Civil de Minas Gerais, and TotalEnergies, handling critical metrics such as budgets, performance, and deadlines. ",
+            "Translated complex business data into clear visualizations and easy-to-use interactive components, ensuring a seamless user experience across different sectors.",
+            "Improved a Decision Engine application by implementing new features and conducting rigorous testing, optimizing workflows for loan processing.",
             "Reviewed and refined application manuals to improve clarity, usability, and accessibility for end-users and stakeholders."
         ],
     },
