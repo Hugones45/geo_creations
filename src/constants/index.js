@@ -201,9 +201,9 @@ const experiences = [
         iconBg: "#C6EAFE",
         points: [
             "Designed and prototyped an innovative 'spider' map to manage and visualize distances between user-defined locations. The design and concept were selected for consideration at COP30, demonstrating the ability to create cutting-edge cartographic solutions for high-impact global events;",
-            "Performed spatial operations such as intersection, interpolation, watershed delimitation, relief modeling, and contour line generation. ",
-            "Worked with geospatial data formats such as Shapefiles and GeoJSON.",
-            "Conducted a geospatial impact study for native bee conservation in Araxá. The project involved data collection, spatial analysis of contamination zones, and intuitive visualization, resulting in a 20% reduction n colony mortality; ",
+            "Led an end-to-end geospatial study to reduce mortality in native bee colonies. Conducted proximity and interpolation analyses in QGIS, modeling contamination risk zones. The results reduced colony mortality by 20%",
+            "Contributed to the development and optimization of a transportation application built with Flutter, focusing on implementing real-time routing and monitoring systems for multiple vehicle types (cars, school vans, buses)",
+            "Automated geospatial analysis in Python using GeoPandas for workflows such as data cleaning, interpolation, intersection, area and distance calculation, and geometry manipulation, increasing efficiency in QGIS and ArcGIS processes. ",
         ],
     },
     {
