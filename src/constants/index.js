@@ -63,6 +63,7 @@ import meli_map from "../assets/programming/meli_map.png"
 import search_boundaries from "../assets/programming/search_boundaries_1.png"
 import stingless_school from "../assets/programming/meliponas_web1.png"
 import geoPandass from "../assets/geopandas_logo.png"
+import pandasIsoietas from "../assets/pandas_isoietas.png"
 import spider_map from "../assets/programming/spider_map.png"
 
 export const navLinks = [
@@ -478,6 +479,12 @@ const projects2 = [
         name: "Python Script Map Generator",
         image: geoPandass,
         source_code_link: "https://github.com/Hugones45/Geo_script",
+    },
+
+    {
+        name: "Isohyet Analysis Script",
+        image: pandasIsoietas,
+        source_code_link: "https://github.com/Hugones45/isohyets-month-comparison-script/blob/master/inmet_precipitation.py",
     },
 ];
 

@@ -13,6 +13,7 @@ import google from "../assets/google.png"
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, code_key, source_code_app }) => {
   const isFirstItem = index === 0;
   const isLastItem = index === projects2.length - 1;
+  const isPenultimateItem = index === projects2.length - 2;
 
   return (
     <motion.div
@@ -34,8 +35,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-2">
-            {/* Google Chrome icon for all items except the last one */}
-            {!isLastItem && (
+            {/* Google Chrome icon for all items except the last one and the penultimate one (script) */}
+            {!isLastItem && !isPenultimateItem && (
               <div
                 onClick={() => window.open(source_code_app, "_blank")}
                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
