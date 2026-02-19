@@ -44,6 +44,8 @@ import mapa_sub_bacias_hidrograficas_araxa from "../assets/maps_proje/mapa_sub_b
 
 import brazil_bio from "../assets/maps_proje/arc/brazil_bio.png"
 import bh_utilities from "../assets/maps_proje/arc/bh_utilities_energy.jpg"
+import bh_flood from "../assets/maps_proje/bh_inundacao_normalizacao.png"
+import isoietasMG from "../assets/maps_proje/month_comparasion_january_2025_2026.png"
 import usdo_da_terra from "../assets/maps_proje/arc/uso_da_terra.jpg"
 import morfoestrutura from "../assets/maps_proje/arc/morfoestruturas_go.jpg"
 import setores_sensiARCs from "../assets/maps_proje/arc/setores_sesitarios.jpg"
@@ -284,9 +286,46 @@ const projects = [
         category: 'analytical',
     },
     {
+        name: "Comparative Isohyet Analysis – Accumulated Precipitation (January 2025 & January 2026)",
+        image: isoietasMG,
+        long_description: `
+<p>
+This map presents a comparative analysis of isohyets for accumulated precipitation in January 2025 and January 2026 across the Metropolitan Region of Belo Horizonte, based on data from INMET automatic weather stations.
+</p>
+
+<p>
+The dataset was processed through a fully automated Python workflow using Pandas and GeoPandas, capable of handling dozens of CSV files with heterogeneous structures, multiple columns, encoding variations, and inconsistent headers.
+</p>
+<p> The script systematically:</p>
+
+<ul>
+  <li>Extracted station metadata (name, latitude, longitude) directly from file headers;</li>
+  <li>Identified precipitation columns automatically, even with different naming conventions and accent variations;</li>
+  <li>Parsed and standardized date fields with multiple format tolerances;</li>
+  <li>Filtered exclusively the month of January for each year;</li>
+  <li>Calculated total accumulated precipitation per station;</li>
+  <li>Converted results into a georeferenced dataset (GeoDataFrame) for spatial interpolation and isohyet generation.</li>
+</ul>
+
+<p>
+This automation ensured reproducibility, scalability, and consistency in processing large volumes of meteorological data. The resulting isohyet maps highlight spatial variations in rainfall distribution between the two years, supporting hydrological analysis, climate monitoring, and urban risk assessment.
+</p>
+
+`,
+        tools: 'QGIS',
+        category: 'analytical',
+    },
+    {
         name: "Hydrographic Sub-Basins of Araxá",
         image: mapa_sub_bacias_hidrograficas_araxa,
         long_description: "This map illustrates the distribution of the sub-basins in the Araxá region, highlighting the main drainage areas, represented by distinct colors. Each sub-basin is identified according to its respective stream or main river, including important watercourses such as Córrego da Galinha, Córrego do Retiro, and the Marmelo and Tamanduá rivers, among others. All hydrological data were obtained from a single Digital Elevation Model (DEM), extracted from the NASADEM mission, available on the OpenTopography portal.",
+        tools: 'QGIS',
+        category: 'analytical',
+    },
+    {
+        name: "Multicriteria Analysis for Flood Susceptibility - Belo Horizonte (MG)",
+        image: bh_flood,
+        long_description: "This map presents a multicriteria analysis developed to identify areas susceptible to flooding in Belo Horizonte, Brazil. The model integrates land use and land cover, slope, and flow accumulation derived from a Digital Elevation Model (SRTM – 30 m, NASA) and MapBiomas land use data (10 m resolution). All variables were normalized into four susceptibility classes (Very Low to High) and combined using a weighted linear approach, assigning 40% to land use, 35% to flow accumulation, and 25% to slope. The resulting map highlights areas with greater flood tendency, supporting urban planning, risk management, and environmental decision-making.",
         tools: 'QGIS',
         category: 'analytical',
     },
@@ -359,7 +398,7 @@ const projects = [
         image: healthcareheatmap,
         long_description: "This visualization helps in understanding the accessibility and availability of healthcare services for different neighborhoods. By highlighting areas with high and low concentrations of centers, city planners and health officials can make informed decisions on resource allocation, identify regions that may need additional facilities, and ensure equitable access to healthcare services for all residents. This map is a valuable tool for improving urban health planning and addressing healthcare needs in Belo Horizonte.",
         tools: 'QGIS',
-        category: 'analytical',
+        category: 'thematic',
     },
     {
         name: "Population Map by Municipality",

@@ -43,11 +43,17 @@ const ImgMaps = () => {
                 <img className="w-full md:max-w-screen-md" src={project.image} alt={project.name} />
             </div>
 
-            <div className="flex justify-center flex-col items-center mb-8 gap-5 mt-4">
-                <p className="w-full md:max-w-screen-md px-4">Description: {project.long_description}</p>
 
-
+            <div className="flex justify-center flex-col items-center mb-4">
+                <div className="w-full md:max-w-screen-md px-4 ">
+                    <p className="flex justify-center flex-col items-center mb-4 gap-5 mt-4">Description:</p>
+                    <div
+                        dangerouslySetInnerHTML={{ __html: project.long_description }}
+                    />
+                </div>
             </div>
+
+
         </div>
     );
 };
