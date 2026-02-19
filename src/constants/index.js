@@ -198,7 +198,7 @@ const certificates = [
 
 const experiences = [
     {
-        title: "Geospatial Analyst and Web GIS Developer , Araxá, Brazil ",
+        title: "Geospatial Analyst and Web GIS Developer",
         company_name: "Geoprocessing Analyst and Developer of Dynamic Web Maps",
         icon: meli_araxa,
         iconBg: "#C6EAFE",
