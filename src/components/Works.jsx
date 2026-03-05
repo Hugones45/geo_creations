@@ -95,9 +95,9 @@ const Works = () => {
     children: (
       <div className="mt-4 sm:mt-8 flex flex-wrap gap-4 sm:gap-7 justify-center sm:justify-start">
         {getProjectsByCategory(category.key).map((item) => (
-          <ProjectCard 
-            key={`project-${item.originalIndex}`} 
-            index={item.originalIndex} 
+          <ProjectCard
+            key={`project-${item.originalIndex}`}
+            index={item.originalIndex}
             name={item.name}
             image={item.image}
           />
@@ -110,6 +110,7 @@ const Works = () => {
     <>
       <motion.div>
         <h2 className={styles.sectionHeadText}>Geospatial Works</h2>
+        <h3 className={styles.sectionSubText}>Built with ArcGIS Pro, QGIS & Python</h3>
       </motion.div>
 
       <ConfigProvider theme={antdTheme}>
