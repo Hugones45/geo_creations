@@ -23,7 +23,7 @@ import bittec from "../assets/bittech.png"
 import power from "../assets/power.png"
 import esri from "../assets/esri.png"
 
-
+import saveBee from "../assets/maps_proje/bee_save2.jpg"
 import residuos from "../assets/maps_proje/map_layout_residuos.png"
 import geo_economic from "../assets/maps_proje/carac_geo_e_economic.png"
 import declividade from "../assets/maps_proje/declividade.png"
@@ -336,6 +336,13 @@ This automation ensured reproducibility, scalability, and consistency in process
         long_description: "An illustration of the different methods of household waste disposal across various regions. The map categorizes disposal practices into controlled landfills, sanitary landfills, open dumps, and areas with no information. This detailed visualization is essential for environmental planning and management, aiding authorities in identifying regions that need improved waste management infrastructure and policies.",
         tools: 'QGIS',
         category: 'thematic',
+    },
+    {
+        name: "MULTICRITERIA ENVIRONMENTAL RISK ANALYSIS FOR MELIPONAS",
+        image: saveBee,
+        long_description: "Research conducted in downtown Araxá to understand the dispersion and interaction of native bees, their development, and the dangers threatening the hives. Meliponas play a crucial role in the city's health as excellent pollinators, contributing to gardens, parks, and urban green areas. To develop the risk map, a multicriteria analysis was applied based on five factors: distance from smoke sources, foraging of species, health of available vegetation, proximity to roads, and proximity to harmful species. These criteria helped prevent the death of future urban colonies by identifying key risk areas.",
+        tools: 'ARCGIS',
+        category: 'analytical',
     },
     {
         name: "Savi Vegetation Index of Araxá",
