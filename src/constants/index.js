@@ -65,6 +65,7 @@ import stingless_school from "../assets/programming/meliponas_web1.png"
 import geoPandass from "../assets/geopandas_logo.png"
 import pandasIsoietas from "../assets/pandas_isoietas.png"
 import spider_map from "../assets/programming/spider_map.png"
+import arcadis_logo from "../assets/company/arcadis_logo_png.png"
 
 export const navLinks = [
 
@@ -199,7 +200,20 @@ const certificates = [
 const experiences = [
     {
         title: "Geospatial Analyst and Web GIS Developer",
-        company_name: "Geoprocessing Analyst and Developer of Dynamic Web Maps",
+        company_name: "Arcadis",
+        icon: arcadis_logo,
+        iconBg: "#fff",
+        points: [
+            "Data curation and QA/QC of geospatial datasets.",
+            "Creation of automations and APIs.",
+            "Development of GIS tools.",
+            "Design and creation of WebGIS with a focus on environmental preservation.",
+            "Geoprocessing analysis and metadata generation."
+        ],
+    },
+    {
+        title: "Geospatial Consultant & Web GIS Developer",
+        company_name: "Freelance / Contract Work",
         icon: meli_araxa,
         iconBg: "#C6EAFE",
         points: [
